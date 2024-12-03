@@ -1,0 +1,237 @@
+  <!-- Banner Section -->
+    <div class="dyna-performance-banner">
+        <div class="dyna-performance-overlay"></div>
+        <div class="dyna-performance-banner-text">
+            <h1>{{ section.settings.ttle }}</h1>
+            <p>{{ section.settings.sbttle }} </p>
+        </div>
+    </div>
+
+
+ <!-- Main Content Section -->
+    <div class="exploring-blog-wrapper">
+        <div class="container">
+            <h2 class="dyna-performance-heading">{{ section.settings.abvttle }}</h2>
+        {%- paginate blog.articles by 15 -%}    <div class="dyna-blog-cards">
+                {%- for article in blog.articles -%}
+                <div class="dyna-performance-card">
+                    <img src="{{ article.image | img_url : 'master' }}" alt="ford-mustang">
+                    <div class="dyna-performance-card-content">
+                        <h3>{{ article.title }}</h3>
+                        <span>{{  article.published_at | time_tag: format: 'date' }}</span>
+                        <p>{{ article.content | strip_html | truncate : 120 }}</p>
+                        <a href="{{ article.url }}"><button class="btn btn-primary">Read More</button></a>
+                    </div>
+                </div>
+{% endfor %}
+               
+
+                 
+
+                
+            </div>
+     
+            {%- if paginate.pages > 1 -%}
+      {%- render 'pagination2', paginate: paginate -%}
+    {%- endif -%}
+          {%- endpaginate -%}
+        </div>
+          
+    </div>
+
+<style>
+  .dyna-performance-card img {
+    max-width: 100%;
+}
+  /* blog page css starts */
+        .exploring-blog-wrapper {
+    background: #f3f3f3;
+    padding: 70px 0px;
+}
+
+        .dyna-performance-banner {
+            position: relative;
+            background-image: url('https://i.ibb.co/XVdMXX9/mustang-bg-img.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 225px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .dyna-performance-banner .dyna-performance-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #e51937;
+            opacity: 0.7;
+              display: block;
+        }
+h2.dyna-performance-heading {
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Speed Fez';
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+        .dyna-performance-banner-text {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            z-index: 1;
+            border-radius: 10px;
+        }
+
+       
+        .dyna-performance-banner-text h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Speed Fez;
+}
+
+      .dyna-performance-banner-text p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 21px;
+    text-align: center;
+    max-width: 87%;
+    margin: auto;
+}
+.dyna-blog-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.dyna-performance-card-content button.btn.btn-primary {
+    height: 45px;
+    width: 140px;
+    background: transparent;
+    color: #cd1631;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-family: Rubik;
+    font-weight: 500;
+    border: 2px solid #cd1631;
+    transition: all .5s ease;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.dyna-performance-card-content {
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.dyna-performance-card-content h3 {
+    font-size: 25px;
+    margin-bottom: 2px;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Rubik';
+}
+.dyna-performance-card-content span {
+    font-size: 10px;
+    font-family: 'Rubik', sans-serif;
+    color: #fdfdfd;
+    background: #cd1631;
+    padding: 7px 5px;
+    border-radius: 3px;
+}
+.dyna-performance-card-content p {
+    font-size: 1em;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 10px;
+}
+.dyna-performance-card {
+    background: #fff;
+    box-shadow: 5px 20px 41.9px 0px #0000001A;
+    padding: 0px 0px 10px;
+    border-radius: 2px;
+}
+.dyna-performance-card-content button.btn.btn-primary:hover {
+    background: #CD1631;
+    color: #fff;
+}
+.blog-wrapper ul {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 80px;
+}
+  .pagination-wrapper.blog-wrapper ul li {
+    margin-right: 0px;
+}
+.blog-wrapper .pagination__item--current.light {
+    background: #cd1631;
+    padding: 8px 15px;
+    border-radius: 3px;
+    opacity: 1;
+  color: #fff;
+}
+  .blog-wrapper .pagination__item--current.light:after {
+    display: none;
+}
+.blog-wrapper span.pagination__item {
+    color: #000;
+}
+.blog .footer {
+    margin-top: 0px !important;
+}
+  @media screen and (max-width: 767px) {
+  .dyna-blog-cards {
+    display: block;
+ 
+}
+    .blog-wrapper ul {
+    gap: 5px;
+}
+    h2.dyna-performance-heading {
+   
+    font-size: 24px;
+
+}
+    .dyna-performance-card-content h3 {
+    font-size: 20px;
+}
+}
+/* blog page css end */
+</style>
+
+{% schema %}
+{
+  "name": "Exploring Blog",
+  "settings": [
+
+    {
+                    "id" : "ttle",
+                    "type" : "text",
+                    "label" : "Title"
+                },  {
+                    "id" : "sbttle",
+                    "type" : "text",
+                    "label" : "Sub Title"
+                }, {
+                    "id" : "abvttle",
+                    "type" : "text",
+                    "label" : "Above Blogs"
+                }
+  ],
+  "presets": [
+    {
+      "name": "Exploring Blog",
+    }
+  ]
+}
+{% endschema %}

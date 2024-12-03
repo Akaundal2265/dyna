@@ -1,0 +1,46 @@
+<section class="instagram-feed section-padding">
+  <div class="container">
+    <div class="card-collection-heading"><h2>{{ section.settings.title }}</h2></div>
+    <div id="insta-feed"></div>
+  </div>
+   {% if section.settings.btext %}
+  <div class="shop_btn grid_cont_for">
+      <a href="{{ section.settings.burl }}">{{ section.settings.btext }}</a>
+    </div>
+    {% endif %}
+</section>
+
+{% schema %}
+  {
+    "name": "Instagram feed New",
+    "settings": [ 
+      {
+      "type": "header",
+      "content": "Button",
+
+      },
+      {
+          "id" : "title",
+          "type" : "text",
+          "label" : "Title"
+      },
+      {
+          "id" : "burl",
+          "type" : "url",
+          "label" : "URL"
+      },
+      {
+          "id" : "btext",
+          "type" : "text",
+          "label" : "Button Text",
+          "default":"Shop now"
+      } 
+    ],
+  "presets": [
+      {
+        "name": "Instagram feed New",
+        "category": "Image"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,108 @@
+<style>
+  .product-tab-wrapper {
+
+  margin: auto;
+  margin-top: 30px; }
+
+.tab-wrapper {
+  text-align: center;
+  display: block;
+  margin: auto;
+
+}
+.content-wrapper .tab-content.active {
+    border: none;
+    text-align: left;
+}
+.tabs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start; 
+}
+
+.tab-link {
+    margin: 0 3%;
+    list-style: none;
+    color: #7b7b7b;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    border-bottom: solid 3px rgba(255, 255, 255, 0);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tab-content p {
+    color: #000;
+}
+
+.tab-link.active {
+    border-bottom: 2px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.tab-link:nth-of-type(1).active {
+  color:#000;
+  border-color: #000; }
+
+.tab-link:nth-of-type(2).active {
+  color: #000;
+  border-color: #000; }
+
+.tab-link:nth-of-type(3).active {
+  color: #000;
+  border-color: #000; }
+
+.content-wrapper {
+    padding: 15px 10px;
+    margin: 8px;
+}
+
+.tab-content {
+  display: none;
+  text-align: center;
+  color: #888;
+  font-weight: 300;
+  font-size: 15px;
+  opacity: 0;
+  transform: translateY(15px);
+  animation: fadeIn 0.5s ease 1 forwards; }
+
+.tab-content.active {
+  display: block; }
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+</style>
+
+<div class="product-tab-wrapper">
+		
+	<div class="tab-wrapper">
+		<ul class="tabs">
+				<li class="tab-link active" data-tab="1">Description</li>
+			 
+				{% if product.metafields.custom.compatibility != blank %}<li class="tab-link" data-tab="3">Compatibility</li>{% endif %}
+		</ul>
+	</div>
+
+	<div class="content-wrapper">
+
+		<div id="tab-1" class="tab-content active"> {{ product.description }} </div>
+
+ 
+		{% if product.metafields.custom.compatibility != blank %}	<div id="tab-3"class="tab-content">
+        {{ product.metafields.custom.compatibility | metafield_tag }}  
+        </div>
+{% endif %}
+	</div>
+	
+</div>
+
+
+
