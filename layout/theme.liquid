@@ -1089,10 +1089,15 @@ async function fetchLocationInfo() {
             'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 
             'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE'
         ];
+        const consentContainer = document.querySelector('.cky-consent-container');
 
         // Check if the country code is in the list of EU country codes
         if (euCountryCodes.includes(countryCode)) {
-            alert(countryCode);
+                      consentContainer.style.display = 'block';
+
+        }else{
+                      consentContainer.style.display = 'none';
+
         }
 
     } catch (error) {
