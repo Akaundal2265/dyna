@@ -1081,7 +1081,7 @@ async function fetchLocationInfo() {
         const response = await fetch('/browsing_context_suggestions.json');
         const data = await response.json();
 
-        // Use the detected country code and country name from the response
+        // Use the detected country code from the response
         const countryCode = data.detected_values.country.handle;
 
         // List of EU country codes
@@ -1089,21 +1089,34 @@ async function fetchLocationInfo() {
             'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 
             'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE'
         ];
-        const consentContainer = document.querySelector('.cky-consent-container');
 
-        // Check if the country code is in the list of EU country codes
+        // Create a <style> element
+        const styleElement = document.createElement('style');
+        styleElement.type = 'text/css';
+
+        // If the country is in the EU, show the consent container, else hide it
         if (euCountryCodes.includes(countryCode)) {
-                      consentContainer.style.display = 'block';
-
-        }else{
-                      consentContainer.style.display = 'none';
-
+            styleElement.innerHTML = `
+                .cky-consent-container {
+                    display: block !important;
+                }
+            `;
+        } else {
+            styleElement.innerHTML = `
+                .cky-consent-container {
+                    display: none !important;
+                }
+            `;
         }
+
+        // Append the <style> element to the <head> of the document
+        document.head.appendChild(styleElement);
 
     } catch (error) {
         console.error('Error fetching location info:', error);
     }
 }
+
 
   </script>
    <script  type="lazyload_int" data-src="https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL" defer></script>
