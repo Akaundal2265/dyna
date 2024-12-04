@@ -1071,6 +1071,10 @@ var mid=$('.selct_media_drp option[vid="'+variantValue+'"]').attr('mid');
 
 
   <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+    fetchLocationInfo();
+});
+    
     async function fetchLocationInfo() {
     try {
         const response = await fetch('/browsing_context_suggestions.json');
