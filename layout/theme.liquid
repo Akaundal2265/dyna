@@ -1156,16 +1156,16 @@ $('.two_opt ul li').removeClass('active');
 
        })
 
-        if (window.location.href.indexOf("/collections/all-products") > -1) {
+        if (window.location.href.indexOf("uni=yes") > -1) {
+           $('.two_opt').show()
        if (window.location.href.indexOf("pf_t_type_exterior") > -1){
-         $('.two_opt').show()
+        
          $('.two_opt ul li:nth-child(2)').addClass('active')
 
          
        } 
            if (window.location.href.indexOf("pf_t_type_interior") > -1){
-             $('.two_opt').show()
-         $('.two_opt ul li:nth-child(1)').addClass('active')
+          $('.two_opt ul li:nth-child(1)').addClass('active')
 
          
        } 
