@@ -1,0 +1,35 @@
+
+
+<div class="category_box_section container">
+<div class="body_text" style="color:#000;">
+{{ collection.metafields.custom.body_text_1 | metafield_tag }} 
+  {% if collection.metafields.custom.body_text_2 != blank %}
+<div class="shop_btn grid_cont_for">
+      <a href="#more_txt">Read More</a>
+    </div>
+    {% endif %}
+  <div class="more_txt" style="display:none;">
+
+{{ collection.metafields.custom.body_text_2 | metafield_tag }}
+    
+  </div>
+  
+</div>
+</div>
+{% schema %}
+{
+  "name": "Body text Collection",
+  "class": "body_collection",
+  "settings": [
+],
+  "presets": [
+    {
+      "name": "Body text Collection"
+      }
+  ],
+  "templates": [
+    "collection"
+  ]
+
+}
+{% endschema %}
