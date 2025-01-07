@@ -366,7 +366,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </head>
 
  
-  <body class="overflow_hidden scroll {{  request.path }} gradient {{ template.name }} template-{{ template | replace: '.', '-' | replace: '/', '-' }} {% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="{% if collection.url contains 'steering' %}hide_quick {% endif %} overflow_hidden scroll {{  request.path }} gradient {{ template.name }} template-{{ template | replace: '.', '-' | replace: '/', '-' }} {% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     
     <div class="video-popup-section" style="display: none;">
         <div class="video-popup"></div>  
