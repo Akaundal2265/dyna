@@ -55,7 +55,7 @@
     "custom_liquid_qTBy6m": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<div class=\"two_opt\">\n<ul>\n<li type=\"pf_t_type_interior=type_Interior\" >Interior</li>\n<li type=\"pf_t_type_exterior=type_Exterior\" >xterior</li>\n\n</ul>\n</div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
