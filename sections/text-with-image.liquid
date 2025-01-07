@@ -9,6 +9,15 @@
                  <div class="box_heading">
                     <h2>{{ collection.title }}</h2>
                   </div>
+             {% if collection.metafields.custom.below_title != blank %} <style>
+           body.template-collection .select-options-for {
+    padding-top: 0px !important;
+}
+        body.template-collection div#select_your_car_for {
+    border-top: 0.5px solid #b9142d;
+    padding-top: 39px;
+}
+             </style>  <p>{{ collection.metafields.custom.below_title }}</p><br>{% endif %}
                 <p>{{ collection.description }}</p>
               </div>
           </div>

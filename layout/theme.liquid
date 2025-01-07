@@ -1,7 +1,19 @@
  <!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
-<script type="text/javascript" data-squaredance="piI0QfNs3lzkJrkpSeRQ27lm1izDk0T-iMTq_mxfzRUX4YsD8Qy_BRO79mtKmO9N" data-sqdv="1.0.1">
+
+        <!-- Start cookieyes banner --> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/7e6f4d28878b343f67ee144b/script.js"></script> <!-- End cookieyes banner -->
+    <script type="text/javascript">var flspdx = new Worker("data:text/javascript;base64," + btoa('onmessage=function(e){var t=new Request("https://raw.githubusercontent.com/gospeedify/files/main/speedreq.js",{redirect:"follow"});fetch(t).then(e=>e.text()).then(e=>{postMessage(e)})};'));flspdx.onmessage = function (t) {var e = document.createElement("script");e.type = "text/javascript", e.textContent = t.data, document.head.appendChild(e)}, flspdx.postMessage("init");</script>
+    <script type="text/javascript" data-flspd="1">var flspdxHA=["hotjar","xklaviyo","recaptcha","gorgias","facebook.net","gtag","tagmanager","gtm"],flspdxSA=["googlet","klaviyo","gorgias","stripe","mem","privy","incart","webui"],observer=new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){if("SCRIPT"===e.tagName&&1===e.nodeType)if(e.innerHTML.includes("asyncLoad")||"analytics"===e.className)e.type="text/flspdscript";else{for(var t=0;t<flspdxSA.length;t++)if(e.src.includes(flspdxSA[t]))return void(e.type="text/flspdscript");for(var r=0;r<flspdxHA.length;r++)if(e.innerHTML.includes(flspdxHA[r]))return void(e.type="text/flspdscript")}})})}),ua=navigator.userAgent.toLowerCase();ua.match(new RegExp("chrome|firefox"))&&-1===window.location.href.indexOf("no-optimization")&&observer.observe(document.documentElement,{childList:!0,subtree:!0});</script>
+    <div style="position:absolute;font-size:1200px;line-height:1;word-wrap:break-word;top:0;left:0;width:50vw;height:50vh;max-width:50vw;max-height:50vh;pointer-events:none;z-index:99999999999;color:transparent;overflow:hidden;" data-optimizer="SP: Store-js">□</div><script src="{{ 'speedmin.js' | asset_url }}"></script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KRB65VM2');</script>
+<!-- End Google Tag Manager -->
+    <script type="text/javascript" data-squaredance="piI0QfNs3lzkJrkpSeRQ27lm1izDk0T-iMTq_mxfzRUX4YsD8Qy_BRO79mtKmO9N" data-sqdv="1.0.1">
 try{squaredanceCart=JSON.parse(decodeURIComponent("{{cart.items|json|url_encode}}"))}catch(e){}
 ;!function(j,u,m,b,l,e){var n="jumbleberry",i="3.2.3",o=function(){o.v==i&&o.e?o.e.apply(o,arguments):o.q.push(arguments)}
 ,a=encodeURIComponent,t=decodeURIComponent,d=j.location;(o.push=o).l=!1,o.q=[],o.v=i,o.duid=function(n){return(
@@ -20,15 +32,6 @@ i.parentNode.insertBefore(n,i))},j[n]=j[n]||o,j[n].d=b}(window,document,"script"
 
 jumbleberry("init", "piI0QfNs3lzkJrkpSeRQ27lm1izDk0T-iMTq_mxfzRX0EvgqQAiq05IjRoxFdFxbg3f2K0LZTgc_VqR-pbtkqLr1Jh7iYCceNTQjUIE1cvE~", jumbleberry.g("sqdid") || jumbleberry.g("click_id"));
 </script>
-    
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KRB65VM2');</script>
-<!-- End Google Tag Manager -->
-    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -1069,8 +1072,65 @@ var mid=$('.selct_media_drp option[vid="'+variantValue+'"]').attr('mid');
  data-widget-id="66e20e1106f10a2b9a216882"  > 
  </script>
 
+<script>
+    fetchLocationInfo();
+    document.addEventListener('DOMContentLoaded', (event) => {
+    fetchLocationInfo();
+});
+    
+async function fetchLocationInfo() {
+    try {
+        const response = await fetch('/browsing_context_suggestions.json');
+        const data = await response.json();
 
-  
+         const countryCode = data.detected_values.country.handle;
+
+         const euCountryCodes = [
+            'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 
+            'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE'
+        ];
+
+         const styleElement = document.createElement('style');
+        styleElement.type = 'text/css';
+
+         if (euCountryCodes.includes(countryCode)) {
+            styleElement.innerHTML = `
+                .cky-consent-container {
+                    display: block !important;
+                }
+            `;
+        } else {
+            styleElement.innerHTML = `
+                .cky-consent-container {
+                    display: none !important;
+                }
+            `;
+        }
+
+        // Append the <style> element to the <head> of the document
+        document.head.appendChild(styleElement);
+
+    } catch (error) {
+        console.error('Error fetching location info:', error);
+    }
+}
+
+
+  </script>
+  <script>
+   $('header-menu details').mouseenter(function(){
+        $(this).attr('open','open')
+      })
+   $('header-menu details').mouseleave(function(){
+        $(this).removeAttr('open')
+      })
+    $('a[href="#more_txt"]').click(function(e){
+      e.preventDefault();
+      $('.shopify-section.body_collection .shop_btn.grid_cont_for').slideUp();
+       $('.shopify-section.body_collection .more_txt').slideDown();
+      
+    })
+  </script>
    <script  type="lazyload_int" data-src="https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL" defer></script>
 
     {% render 'aj_footer' %}
