@@ -12,7 +12,7 @@ body.article  header.page-width.page-width--narrow.scroll-trigger.animate--fade-
 .body_collection  h2 { margin-bottom: 17px; } 
 .body_collection .more_txt { padding-top: 44px; }
 .body_text * { color: #000; }
-.top_text { text-align: center; max-width: 709px; margin: auto; padding-top: 25px;margin-bottom:30px; }
+.top_text { text-align: center; max-width: 709px; margin: auto; padding-top: 0; margin-bottom: 30px; margin-top: -30px; }
 body.article  .article-template__content * {
     color: #000;
 }
