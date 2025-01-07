@@ -52,6 +52,10 @@
         "collection": "all-products"
       }
     },
+    "collection_top_area_k6UPJk": {
+      "type": "collection_top_area",
+      "settings": {}
+    },
     "1721424136e6737752": {
       "type": "apps",
       "blocks": {
@@ -66,6 +70,14 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "body_text_collection_THTttw": {
+      "type": "body-text-collection",
+      "custom_css": [
+        ".category_box_section.container {padding-top: 0px !important;}",
+        ".shop_btn.grid_cont_for {margin-bottom: 0 !important;}"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -73,6 +85,8 @@
     "product-grid",
     "text_with_image_PE8tnE",
     "select_option_Qhmfzk",
-    "1721424136e6737752"
+    "1721424136e6737752",
+    "collection_top_area_k6UPJk",
+    "body_text_collection_THTttw"
   ]
 }
