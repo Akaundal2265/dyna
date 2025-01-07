@@ -1,0 +1,101 @@
+<div class="why_shop_product_section_container">
+    <div class="why_shop_section container">
+    <div class="shipping_container_boxes">
+            <div class="shipping_img_box">
+        <div class="img-grend-main-div">
+    <img   data-src="{{ section.settings.image | img_url : 'master'  }}" class="desktop-img load_dsk">
+    <img   data-src="{{ section.settings.mob-image | img_url : 'master'  }}" class="mob-img load_mb" style="display:none;">
+
+          <div class="img-with-cont-conttent-div">
+              <h2>{{ section.settings.title_1 }}</h2>
+          </div>
+        </div>
+    </div>
+      
+      <div class="shipping_info_box">
+        {% for block in section.blocks %}
+        <div class="shipping_info_content">
+          <div class="abs_img_shipping">
+            <img    data-src="{{ block.settings.desk-image  | img_url : 'master'  }}" class=" late_load desktop" >
+          </div>
+          <div class="shipping_heading">
+          {{ block.settings.heading }}
+          </div>
+          <div class="shipping_info_para">
+             {{ block.settings.sub_heading}}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+    </div>
+   <div class="shop_btn grid_cont_for">
+      <a href="{{ section.settings.link_url }}">{{ section.settings.button_url }}</a>
+    </div>
+  </div>
+
+
+{% schema %}
+  {
+    "name": "Compare Image",
+    "settings": [
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop Image"
+    },
+      
+      {
+      "type": "image_picker",
+      "id": "mob-image",
+      "label": "Mobile Image"
+    },
+      {
+      "type": "text",
+      "id": "title_1",
+      "label": "Heading "
+    },
+       {
+      "type": "text",
+      "id": "button_url",
+      "label": "Button Heading"
+    },
+       {
+      "type": "url",
+      "id": "link_url",
+      "label": "Button Link"
+    }
+      
+    ],
+    "blocks": [
+  {
+      "type": "Blocks",
+      "name": "block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "desk-image",
+          "label": "Image"
+        },
+                {
+          "type": "html",
+          "id": "heading",
+          "label": "Heading"
+        },
+              {
+          "type": "richtext",
+          "id": "sub_heading",
+          "label": "description"
+        }
+      ]
+    }
+  ],
+    "presets": [
+      {
+        "name": "Compare Image",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

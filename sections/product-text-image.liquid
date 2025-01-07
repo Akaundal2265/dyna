@@ -1,0 +1,205 @@
+{% assign brightness = section.settings.color_bg | color_brightness %}  {% if section.settings.clropac == 10 %}{% assign opactys= 1 | prepend :',' %}{% else %} {% assign opactys= 0 | prepend : ',' | append : '.' | append :section.settings.clropac %}{% endif %} {% assign alpha = section.settings.color_bg | color_extract: 'alpha' %}<section id="templateproductimg{{ section.id }}" style="background-color:{{section.settings.color_bg  | color_to_rgb  | replace : ')',opactys | append : ')'}};" class="{% if brightness < 190 and alpha > 0 %}light-text-section{% else %}dark-text-section{% endif %} productimge Section {% unless section.settings.image %}Section--spacingNormal{% endunless %} {% if section.settings.topimg == true %} img--top{% endif %}">
+ <div class="container">
+  {% if section.settings.titletop != blank %}  <h2 class="topTitle">{{ section.settings.titletop }}</h2> {% endif %}
+  {% if section.settings.tsubheading != blank %}   <h2 class="top----sub SectionHeader__Heading Heading u-h1">{{ section.settings.tsubheading }}</h2>{% endif %}
+  {%- capture section_content -%}
+    <div class="FeatureText__ContentWrapper">
+      <div class="FeatureText__Content bgscrols">
+        {%- if section.settings.subheading != blank or section.settings.title != blank -%}
+          <header class="SectionHeader">
+            {%- if section.settings.subheading != blank -%}
+              <h3 class="SectionHeader__SubHeading Heading u-h6">{{ section.settings.subheading | escape }}</h3>
+            {%- endif -%}
+
+            {%- if section.settings.title != blank -%}
+              <h2 class="SectionHeader__Heading Heading u-h1">{{ section.settings.title | escape }}</h2>
+            {%- endif -%}
+
+            {%- if section.settings.content != blank -%}
+              <div class="SectionHeader__Description Rte">
+                {{ section.settings.content }}
+              </div>
+            {%- endif -%}
+
+            {%- if section.settings.link_text != blank -%}
+              <a href="{{ section.settings.link_url }}" class="Link Link--underline">{{ section.settings.link_text | escape }}</a>
+            {%- endif -%}
+          </header>
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endcapture -%}
+
+  {%- capture section_image -%}
+    {%- if section.settings.image != blank -%}
+      <div class="FeatureText__ImageWrapper bgscrols2">
+        {%- capture supported_sizes -%}{%- render 'image-size', sizes: '400,600,700,800,900,1000,1200', image: section.settings.image -%}{%- endcapture -%}
+
+        <div class="AspectRatio" style="max-width: {{ section.settings.image.width }}px; --aspect-ratio: {{ section.settings.image.aspect_ratio }}">
+          {%- assign image_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              <img src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.image.alt | escape }}">
+          <noscript>
+            <img src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.image.alt | escape }}">
+          </noscript>
+        </div>
+      </div>
+    {%- endif -%}
+  {%- endcapture -%}
+
+  <div class="FeatureText {% if section.settings.image != blank %}FeatureText--withImage FeatureText--image{{ section.settings.image_position | capitalize }}{% endif %}">
+     {%- if section.settings.image_position == 'left' -%}
+      {{- section_image -}}
+      {{- section_content -}}
+    {%- else -%}
+      {{- section_content -}}
+      {{- section_image -}}
+    {%- endif -%}
+    </div>
+  </div>
+
+</section>
+<style>
+  section.light-text-section.productimge#templateproductimg{{ section.id }} *{
+    color:#fff !important;
+  }
+#templateproductimg{{ section.id }}  .fade-in ,#templateproductimg{{ section.id }} .bgscrols,.bgscrols2{
+  opacity: -2.0;
+  transition: opacity 2s ease-in-out;
+}
+section.light-text-section.img--top.productimge#templateproductimg{{ section.id }}  .FeatureText {% if section.settings.cebtimg == true %},section.img--top.productimge#templateproductimg{{ section.id }}  .FeatureText {% endif %}{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+  
+</style>
+<script>
+  window.addEventListener('scroll', function() {
+  const element = document.querySelector('#templateproductimg{{ section.id }} .bgscrols');
+  const distanceFromTop = element.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
+  const breakPoint = windowHeight * 0.9;
+
+  
+  if (distanceFromTop - breakPoint < 0) {
+    element.style.opacity = 1;
+  } else if (distanceFromTop > windowHeight) {
+    element.style.opacity = -2.0;
+  } else {
+    const opacity = 1 - (distanceFromTop - breakPoint) / (windowHeight - breakPoint);
+    element.style.opacity = opacity;
+  }
+});
+   window.addEventListener('scroll', function() {
+  const element = document.querySelector('#templateproductimg{{ section.id }} .bgscrols2');
+  const distanceFromTop = element.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
+  const breakPoint = windowHeight * 0.9;
+  
+  if (distanceFromTop - breakPoint < 0) {
+    element.style.opacity = 1;
+  } else if (distanceFromTop > windowHeight) {
+    element.style.opacity = -2.0;
+  } else {
+    const opacity = 1 - (distanceFromTop - breakPoint) / (windowHeight - breakPoint);
+    element.style.opacity = opacity;
+
+  }
+});
+</script>
+{% schema %}
+{
+  "name": "Product text with image",
+  "class": "Product-text-with-image",
+  "settings": [
+    
+    {
+      "type": "color",
+      "id": "color_bg",
+      "label": "background color"
+    },{
+      "type": "range",
+      "id": "clropac",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "unit": "%",
+      "label": "Background opacity",
+      "default":10
+    },{
+      "type": "text",
+      "id": "titletop",
+      "label": "Top Heading"
+    },{
+      "type": "text",
+      "id": "tsubheading",
+      "label": "Top Sub-heading"
+    },{
+      "type": "text",
+      "id": "subheading",
+      "label": "LEft Sub-heading",
+      "default": "Sub-heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "LEft Heading",
+      "default": "Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1200 x 1200px .png recommended"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "right"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text",
+      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link text"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },{
+      "type": "checkbox",
+      "id": "topimg",
+      "label": "Top image"
+    },{
+      "type": "checkbox",
+      "id": "cebtimg",
+      "label": "center  image"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Product text with image",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

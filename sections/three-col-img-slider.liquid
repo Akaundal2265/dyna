@@ -1,0 +1,40 @@
+<div class="three-col-img-slide">
+  <div class="container">
+      <div class="three-col-images-slider">
+        {% for block in section.blocks %}
+          <div class="three-col-img-div">     
+          {% if block.settings.image != blank %}   <img src="{{ block.settings.image | img_url : 'master'  }}">  {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Three Column Img Slider",
+  "settings": [
+    
+  ],
+  "blocks": [
+  {
+    "type": "column",
+    "name": "block",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ]
+  }
+],
+  "presets": [
+    {
+      "name": "Three Column Img Slider",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,132 @@
+<div class="product-image-with-text">
+  <div class="container">
+      <div class="dflex-product-image-with-text">
+          <div class="product-left-img-div">
+            
+              <div class="image-slider-left-div">
+          <div class="image-slider-div">
+            {%- for media in product.media -%}
+            <div class="image-thunm-single-slide-div">
+             <img src="{{ media.src | img_url : 'master'}}">
+            </div>
+            {% endfor %}
+          </div>
+
+          <div class="thumb-cust-slider">
+            <div class="thumb-slider">
+              {%- for media in product.media -%}
+              <div class="thum-img-product">
+                  <img src="{{ media.src | img_url : 'master'}}">
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+            
+          </div>
+          <div class="product-right-text-div">
+              <div class="Breadcrumb-div">
+                {% render 'breadcrumbs' %}
+              </div>
+            <div class="product-right-cont-div">
+                 <h1 class="ProductMeta__Title h4">
+                  {%- if template.name == 'product' -%}
+                    {{- product.title -}}
+                  {%- else -%}
+                    <a href="{{ product.url }}">{{ product.title }}</a>
+                  {%- endif -%}
+                </h1>
+              <div class="rating-price-div">
+                {% render 'steering-wheels-product-meta' %}
+              </div>
+
+                  <div class="faq-div">        
+                    <div class="accordion">
+                   <div class="accordion__header is-active">
+                          <h2>Details</h2>
+                          <span class="accordion__toggle"><i class="fa-solid fa-chevron-right"></i></span>
+                      </div>
+                      <div class="accordion__body is-active">
+                        <p class="p-title">
+                            Upgrade your driving experience with a precision-crafted 2010-2014 Ford  Mustang Steering Wheel, tailored for Mustang models from 2010 to 2014.  This premium steering wheel enhances both the aesthetics and performance  of your Mustang, providing a touch of sophistication and sportiness  that will captivate anyone stepping into your 2010-2014 Mustang.
+                          </p>
+                          <ul>
+                            <li>Constructed with Authentic Carbon Fiber Material</li>
+                            <li>Precise Fitment for Seamless Installation</li>
+                            <li>Effortless Installation Process</li>
+                            <li>Enhanced Protection Coupled with Aesthetic Enhancement</li>
+                          </ul>
+                      </div>
+                      <div class="accordion__header" style="border-top:none;">
+                          <h2>Additional Information</h2>
+                          <span class="accordion__toggle"><i class="fa-solid fa-chevron-right"></i></span>
+                      </div>
+                      <div class="accordion__body">
+                        <p class="p-title"> Upgrade your driving experience with a precision-crafted 2010-2014 Ford  Mustang Steering Wheel, </p>
+                      </div>
+                  </div>
+                  </div>
+
+                  </div>
+              <div class="btns-ad-to-cart-div" id="shop-now">
+                <button type="submit" class="bg-color">{{ section.settings.form_button_url }}</button>  <button type="submit" class="bg-border">{{ section.settings.seatcover_url }}</button>
+               
+              </div>
+            <div class="custm-add-div">
+                <p>{{ section.settings.para-bottom }}  <a href="{{ section.settings.link_url }}"><span>{{ section.settings.button_url }} <img src="//www.dynaperformance.com/cdn/shop/files/near_me.svg?v=12097849101091733211"></span></a></p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="product-page-form-div">
+  <div class="form-contain-div">
+     <img class="form-close-div" src="{{ 'x-mark.png' | file_url}}">
+<div style="margin:0 auto;" class="pxFormGenerator" id="k6lrFw-ql-P19Alp384Law"></div>
+</div>
+</div>
+<!-- {% section 'product-steering-wheels-template' %} -->
+
+
+
+
+{% schema %}
+{
+  "name": "Product Image Slider",
+  "class": "product",
+  "settings": [
+    {
+      "type": "text",
+      "id": "para-bottom",
+      "label": "H2-title"
+    },
+    {
+      "type": "text",
+      "id": "form_button_url",
+      "label": "Button Heading"
+    },
+    {
+      "type": "text",
+      "id": "seatcover_url",
+      "label": "Button Heading"
+    },
+      {
+      "type": "text",
+      "id": "button_url",
+      "label": "Button Heading"
+    },
+       {
+      "type": "url",
+      "id": "link_url",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Image Slider",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

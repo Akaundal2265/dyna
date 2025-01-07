@@ -1,0 +1,108 @@
+<div class="image-text-with-icon">
+  <div class="container">
+    <div class="dflex-image-text-icon-div">
+        <div class="image-text-icon-left-img-div">
+          <div class="box_head_section">
+            <div class="main_heading_cat">
+              <h2>{{ section.settings.title }}</h2>
+            </div>
+            <div class="cat_para">
+            <p>{{ section.settings.sub-title }}</p>
+            </div>
+          </div>
+          <img src="{{ section.settings.bottom-img | img_url : 'master'  }}">
+        </div>
+       <div class="image-text-icon-right-text-icon-div">
+            <div class="more-info-div">
+              <div class="more-info-cont-div">
+                <h2>{{ section.settings.title-2 }}</h2>
+                <h3>{{ section.settings.title-3 }}</h3>
+              </div>
+              <div class="more-info-remark-div">
+                <p>{{ section.settings.sub-title-2 }}</p>
+                {{ section.settings.item-list }}
+                
+              </div>
+            </div>
+           <div class="icon-with-text-right-div">
+            {% for block in section.blocks %}
+              <div class="icon-img">
+                  <div class="icon-img-box">
+                     <img src="{{ block.settings.icon-img | img_url : 'master'  }}"> 
+                  </div>
+                  <span>{{ block.settings.title-4 }}</span>
+              </div>
+             {% endfor %}
+           </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Image Text Icon",
+  "settings": [
+    {
+      "type": "html",
+      "id": "title",
+      "label": "Title"
+    },
+     {
+      "type": "richtext",
+      "id": "sub-title",
+      "label": "Sub Title"
+    },
+    {
+      "type": "text",
+      "id": "title-2",
+      "label": "Heading"
+    },
+     {
+      "type": "text",
+      "id": "title-3",
+      "label": "Sub Title"
+    },
+    {
+      "type": "text",
+      "id": "sub-title-2",
+      "label": "Sub Title"
+    },
+    {
+      "type": "html",
+      "id": "item-list",
+      "label": "Sub Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "bottom-img",
+      "label": "Image"
+    }
+  ],
+  "blocks": [
+  {
+    "type": "column",
+    "name": "col",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "icon-img",
+        "label": "Icon "
+      },
+      {
+        "type": "text",
+        "id": "title-4",
+        "label": "Icon "
+      }
+    ]
+  }
+],
+  "presets": [
+    {
+      "name": "Image Text Icon",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

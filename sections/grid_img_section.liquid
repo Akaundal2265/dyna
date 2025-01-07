@@ -1,0 +1,105 @@
+<style>
+.grid_image_box_container_for {
+  width: 100%;
+  max-width: 100%;
+}
+#cssportal-grid {
+	display: grid;
+	grid-template-rows: repeat(6, 127px);
+	grid-template-columns: repeat(9, 1fr);
+	gap: 11px;
+	width: 100%;
+	height: 100%;
+}
+#div1 {
+	grid-area: 1 / 1 / 4 / 4;
+	background-color: #d9d9d9; 
+}
+#div2 {
+	grid-area: 4 / 1 / 7 / 3;
+	background-color: #d9d9d9; 
+}
+#div3 {
+	grid-area: 4 / 3 / 7 / 5;
+	background-color: #d9d9d9; 
+  ;
+}
+#div4 {
+	grid-area: 1 / 4 / 4 / 6;
+	background-color: #d9d9d9; 
+      
+}
+#div5 {
+	grid-area: 1 / 6 / 4 / 8;
+	background-color: #d9d9d9; 
+      
+}
+#div6 {
+	grid-area: 4 / 5 / 7 / 8;
+	background-color: #d9d9d9; 
+}
+#div7 {
+	grid-area: 1 / 8 / 7 / 10;
+	background-color: #d9d9d9; 
+      
+}
+  
+#cssportal-grid div {
+  display: block;
+  
+}
+
+</style>
+
+
+
+<div class="grid_image_box_container_for">
+  <div class="grid_box_for container">
+    <div id="cssportal-grid">
+ 	<div  id="div1"  >
+       <img src="">
+    </div>
+	<div id="div2"  >
+      <img src="">
+    </div>
+	<div id="div3"  >
+      <img src="">
+    </div>
+	<div id="div4"  >
+      <img src="">
+    </div>
+	<div id="div5"  >
+      <img src="">
+    </div>
+        
+	<div id="div6" >
+      <img src="">
+    </div>
+      
+	<div id="div7"  >
+      <img src="">
+    </div>
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Grid Image Box",
+    "settings": [],
+    "presets" : [
+      {
+        "name": "Grid Image Box"
+      }
+      
+    ]
+  }
+{% endschema %}
