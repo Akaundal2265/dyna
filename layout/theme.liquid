@@ -357,6 +357,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "n1p2z4ywdg");
 </script>
+    <!-- Start cookieyes banner --> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/7e6f4d28878b343f67ee144b/script.js"></script> <!-- End cookieyes banner -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   {% include 'hulk_po_vd' %}{% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
 </head>
@@ -1083,17 +1084,44 @@ async function fetchLocationInfo() {
         const response = await fetch('/browsing_context_suggestions.json');
         const data = await response.json();
 
+<<<<<<< HEAD
          const countryCode = data.detected_values.country.handle;
 
          const euCountryCodes = [
+=======
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+    fetchLocationInfo();
+});
+    
+async function fetchLocationInfo() {
+    try {
+        const response = await fetch('/browsing_context_suggestions.json');
+        const data = await response.json();
+
+        // Use the detected country code from the response
+        const countryCode = data.detected_values.country.handle;
+
+        // List of EU country codes
+        const euCountryCodes = [
+>>>>>>> 25216f06cc749a6d464b4e4ce51d7090986ae0e4
             'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 
             'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE'
         ];
 
+<<<<<<< HEAD
          const styleElement = document.createElement('style');
         styleElement.type = 'text/css';
 
          if (euCountryCodes.includes(countryCode)) {
+=======
+        // Create a <style> element
+        const styleElement = document.createElement('style');
+        styleElement.type = 'text/css';
+
+        // If the country is in the EU, show the consent container, else hide it
+        if (euCountryCodes.includes(countryCode)) {
+>>>>>>> 25216f06cc749a6d464b4e4ce51d7090986ae0e4
             styleElement.innerHTML = `
                 .cky-consent-container {
                     display: block !important;
@@ -1117,6 +1145,7 @@ async function fetchLocationInfo() {
 
 
   </script>
+<<<<<<< HEAD
   <script>
    $('header-menu details').mouseenter(function(){
         $(this).attr('open','open')
@@ -1131,6 +1160,8 @@ async function fetchLocationInfo() {
       
     })
   </script>
+=======
+>>>>>>> 25216f06cc749a6d464b4e4ce51d7090986ae0e4
    <script  type="lazyload_int" data-src="https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL" defer></script>
 
     {% render 'aj_footer' %}
