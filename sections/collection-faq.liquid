@@ -1,7 +1,7 @@
 <h2 style="color:#000;">
  test
 {% assign faqcol= collection.metafields.custom.faq.value %}
- 
+ {{ faqcol.question }}
   {% for faqcol in faqcol %}
     {{ forloop.index }}
 {{ faqcol.question }}---
