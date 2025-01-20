@@ -88,10 +88,10 @@
       ],
       "settings": {}
     },
-    "product_faq_CNGhqc": {
-      "type": "product-faq",
+    "collection_faq_L44f6U": {
+      "type": "collection-faq",
       "blocks": {
-        "faq_information_TTGWM6": {
+        "faq_information_abRwde": {
           "type": "faq_information",
           "settings": {
             "title": "Airbags",
@@ -100,7 +100,7 @@
         }
       },
       "block_order": [
-        "faq_information_TTGWM6"
+        "faq_information_abRwde"
       ],
       "settings": {
         "title": "FAQ"
@@ -116,6 +116,6 @@
     "1721424136e6737752",
     "collection_top_area_k6UPJk",
     "body_text_collection_THTttw",
-    "product_faq_CNGhqc"
+    "collection_faq_L44f6U"
   ]
 }
