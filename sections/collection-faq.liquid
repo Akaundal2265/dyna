@@ -1,9 +1,9 @@
 <h2 style="color:#000;">
- 
+ test
 {% assign faqcol= collection.metafields.custom.faq.value%}
 
   {% for all_faq in faqcol %}
-{{ all_faq.question }}
+{{ all_faq.question }}---
 
     {% endfor %}
 {% if section.blocks.size > 0 %}
