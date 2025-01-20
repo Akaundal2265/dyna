@@ -22,7 +22,7 @@
                   <a href="JavaScript:Void(0);" class="title">{{ faqcol.question }} <span class="plus"><img alt="" src="https://cdn.shopify.com/s/files/1/1955/0423/files/plus-icon.svg?v=1586758602"></span><span class="minus"><img alt="" src="https://cdn.shopify.com/s/files/1/1955/0423/files/minus-icon.svg?v=1586758602"></span></a>
              
                   <div class="panel">
-                    {{ faqcol.answer}}
+                    {{ faqcol.answer  | metafield_tag }}
                   </div>
           
               </li>
