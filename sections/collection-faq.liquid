@@ -3,6 +3,7 @@
 {% assign faqcol= collection.metafields.custom.faq.value %}
  
   {% for faqcol in faqcol %}
+    {{ forloop.index }}
 {{ faqcol.question }}---
 
     {% endfor %}
