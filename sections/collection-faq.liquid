@@ -1,5 +1,11 @@
 <h2 style="color:#000;">
-{{ collection.metafields.custom.faq.value }}---</h2>
+ 
+{% assign faqcol= collection.metafields.custom.faq.value%}
+
+  {% for all_faq in faqcol %}
+{{ all_faq.question }}
+
+    {% endfor %}
 {% if section.blocks.size > 0 %}
   <section class="product-faq section-padding">
     <div class="container">
