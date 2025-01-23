@@ -52,15 +52,6 @@
         "collection": "all-products"
       }
     },
-    "custom_liquid_qTBy6m": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"two_opt\" style=\"display:none;\">\n<ul>\n<li type=\"type1\" >Interior</li>\n<li type=\"type2\" >Exterior</li>\n\n</ul>\n</div>\n<style>\n\n \n.two_opt {\n    border-bottom: 1px solid #E51937;\n max-width: 1250px;\n    margin: auto;\n margin-top: 40px;\n}\n\n.two_opt ul {\n    margin-bottom: -1px;\npadding:0;\n\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.two_opt ul li {\n    cursor: pointer;\n\n    border: 1px solid #E51937;\n    color: #E51937;\n    list-style: none;\n    padding: 14px 45px;\n    text-transform: uppercase;\n    font-family: 'Rubik';\n    font-weight: 600;\n}\n    .two_opt ul li:first-child {\n    border-bottom: 0;\n \n}\n\n.two_opt ul li:first-child {\n    border-right: 0;\n}\n\n.two_opt ul li:first-child {\n    border-right: 0;\n    border-radius: 15px 0px 0px 0px;\n}\n.two_opt ul li:last-child {\n    border-radius: 0px 15px 0px 0px;\n}\n.two_opt ul li.active {\n    background: #e51936;\n    color: #fff;\n}\n@media screen and (max-width:767px){\n\n.two_opt {\n    border-bottom: none;\n     \n    } \n.two_opt ul li{\n  border-bottom: 1px solid #E51937 !important;\n}\nbody.uni_fit .boost-sd__toolbar-item.boost-sd__toolbar-item--sorting{\n    display: none !important;\n}\n}\n\n</style>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "1721424136e6737752": {
       "type": "apps",
       "blocks": {
@@ -75,36 +66,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "collection_top_area_k6UPJk": {
-      "type": "collection_top_area",
-      "settings": {}
-    },
-    "body_text_collection_THTttw": {
-      "type": "body-text-collection",
-      "custom_css": [
-        ".category_box_section.container {padding-top: 0px !important;}",
-        ".shop_btn.grid_cont_for {margin-bottom: 0 !important;}"
-      ],
-      "settings": {}
-    },
-    "product_faq_CNGhqc": {
-      "type": "product-faq",
-      "blocks": {
-        "faq_information_TTGWM6": {
-          "type": "faq_information",
-          "settings": {
-            "title": "Airbags",
-            "subheading": "<p>All steering wheels don't include airbags. Reuse your current steering wheel's airbag.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "faq_information_TTGWM6"
-      ],
-      "settings": {
-        "title": "FAQ"
-      }
     }
   },
   "order": [
@@ -112,10 +73,6 @@
     "product-grid",
     "text_with_image_PE8tnE",
     "select_option_Qhmfzk",
-    "custom_liquid_qTBy6m",
-    "1721424136e6737752",
-    "collection_top_area_k6UPJk",
-    "body_text_collection_THTttw",
-    "product_faq_CNGhqc"
+    "1721424136e6737752"
   ]
 }
