@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{ 
+{
   "sections": {
     "banner": {
       "type": "main-collection-banner",
@@ -102,6 +102,13 @@
       "block_order": [
         "faq_information_TTGWM6"
       ],
+      "disabled": true,
+      "settings": {
+        "title": "FAQ"
+      }
+    },
+    "collection_faq_ARnyL8": {
+      "type": "collection-faq",
       "settings": {
         "title": "FAQ"
       }
@@ -116,6 +123,7 @@
     "1721424136e6737752",
     "collection_top_area_k6UPJk",
     "body_text_collection_THTttw",
-    "product_faq_CNGhqc"
+    "product_faq_CNGhqc",
+    "collection_faq_ARnyL8"
   ]
 }
