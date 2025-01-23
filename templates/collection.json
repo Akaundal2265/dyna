@@ -114,7 +114,8 @@
         "block_f8X6qn"
       ],
       "custom_css": [
-        ".category_section_container.badges_layer {padding-top: 50px;}"
+        ".category_section_container.badges_layer {padding-top: 50px;}",
+        ".shop_btn.grid_cont_for {display: none;}"
       ],
       "settings": {
         "ext-cls": "",
