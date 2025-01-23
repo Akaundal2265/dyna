@@ -83,7 +83,7 @@
     "body_text_collection_THTttw": {
       "type": "body-text-collection",
       "custom_css": [
-        ".category_box_section.container {padding-top: 0px !important;}",
+        ".category_box_section.container {padding-top: 100px !important;}",
         ".shop_btn.grid_cont_for {margin-bottom: 0 !important;}"
       ],
       "settings": {}
