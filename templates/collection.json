@@ -113,10 +113,13 @@
         "block_PTfEbe",
         "block_f8X6qn"
       ],
+      "custom_css": [
+        ".category_section_container.badges_layer {padding-top: 50px;}"
+      ],
       "settings": {
         "ext-cls": "",
         "button_url": "SHOP NOW",
-        "link_url": "#select_your_car_for"
+        "link_url": ""
       }
     },
     "body_text_collection_THTttw": {
