@@ -80,6 +80,45 @@
       "type": "collection_top_area",
       "settings": {}
     },
+    "badges_347WbP": {
+      "type": "badges",
+      "blocks": {
+        "block_fmK6LJ": {
+          "type": "block",
+          "settings": {
+            "icon-img": "shopify://shop_images/quality-certificate-award-svgrepo-com_1_1.svg",
+            "title": "The highest quality materials on the market",
+            "sub-title": "<p>At Dyna Performance, we never compromise quality for price and use only the highest quality materials on the market.</p>"
+          }
+        },
+        "block_PTfEbe": {
+          "type": "block",
+          "settings": {
+            "icon-img": "shopify://shop_images/Group_23.svg",
+            "title": "Trusted by the industry's most trusted car builds",
+            "sub-title": "<p>Our DynaCarbon™️ Products Are the Choice of Enthusiasts Who Demand Excellence</p>"
+          }
+        },
+        "block_f8X6qn": {
+          "type": "block",
+          "settings": {
+            "icon-img": "shopify://shop_images/warranty-certificate-svgrepo-com_2.svg",
+            "title": "1 year warranty",
+            "sub-title": "<p>Shop with confindence! All our products come with a limited 1 year factory warranty on defects.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block_fmK6LJ",
+        "block_PTfEbe",
+        "block_f8X6qn"
+      ],
+      "settings": {
+        "ext-cls": "",
+        "button_url": "SHOP NOW",
+        "link_url": "#select_your_car_for"
+      }
+    },
     "body_text_collection_THTttw": {
       "type": "body-text-collection",
       "custom_css": [
@@ -122,6 +161,7 @@
     "custom_liquid_qTBy6m",
     "1721424136e6737752",
     "collection_top_area_k6UPJk",
+    "badges_347WbP",
     "body_text_collection_THTttw",
     "product_faq_CNGhqc",
     "collection_faq_ARnyL8"
