@@ -1016,7 +1016,8 @@ jQuery(document).ready(function() {
 });
 
       $('.product .product__info-wrapper .product-form__input--pill input[type=radio]+label').click(function(){
- 
+ setTimeout(function(){
+   
 let url = window.location.href;
 let urlParams = new URLSearchParams(url.split('?')[1]); // Split by '?' and get the query part
 let variantValue = urlParams.get('variant'); // Get the value of 'variant'
@@ -1034,6 +1035,7 @@ var mid=$('.selct_media_drp option[vid="'+variantValue+'"]').attr('mid');
     }
   })
 
+ },200)
 })
  {% if product %}
 
