@@ -1183,11 +1183,14 @@ $('.two_opt ul li').removeClass('active');
     document.addEventListener("DOMContentLoaded", function() {
         const images = document.querySelectorAll('img');
         images.forEach(img => {
-            // Check if alt text is missing or empty
-            if (!img.alt || img.alt.trim() === "") {
-                // Generate fallback alt text based on the image source URL
-                const fallbackAlt = img.getAttribute('src').split('/').pop().split('.').shift();
-                img.alt = fallbackAlt.replace(/-/g, ' ').replace(/_/g, ' ');
+            if (!img.hasAttribute('alt') || img.alt.trim() === "") {
+                const src = img.getAttribute('src');
+                if (src) {
+                    const fallbackAlt = src.split('/').pop().split('.').shift();
+                    img.alt = fallbackAlt.replace(/[-_]/g, ' ');
+                } else {
+                    img.alt = "Image";
+                }
             }
         });
     });
