@@ -492,7 +492,7 @@
 {
     "@context": "http://schema.org",
     "@type": "CollectionPage",
-    "name": "{{ collection.title | strip_html | replace: '\"', ' ' }}",
+    "name": "Dynaperformance - {{ collection.title }}",
     "url": "{{ collection.url }}",
     "mainEntity": {
         "@type": "WebPageElement",
@@ -503,7 +503,7 @@
                 {
                     "@type": "Product",
                     "image": "{{ product | img_url: '2560w' }}",
-                    "name": "{{ product.title | strip_html | replace: '\"', ' ' }}",
+                    "name": "{{ product.title }}",
                     "offers": {
                         "@type": "Offer",
                         "availability": "http://schema.org/InStock",
