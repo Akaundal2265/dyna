@@ -77,3 +77,34 @@
 }
 {% endschema %}
 
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "CollectionPage",
+    "name": "Dynaperformance - {{ collection.title }}",
+    "url": "{{ collection.url }}",
+    "mainEntity": {
+        "@type": "WebPageElement",
+        "offers": {
+            "@type": "Offer",
+            "itemOffered": [
+                {% for product in collection.products %}
+                {
+                    "@type": "Product",
+                    "image": "{{ product | img_url: '2560w' }}",
+                    "name": "{{ product.title }}",
+                    "offers": {
+                        "@type": "Offer",
+                        "availability": "http://schema.org/InStock",
+                        "price": "{{ product.price | money_without_currency }}",
+                        "priceCurrency": "USD",
+                        "url": "{{ product.url }}"
+                    },
+                    "sku": "{{ product.sku }}"
+                }{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+            ]
+        }
+    }
+}
+</script>
