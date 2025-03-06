@@ -204,3 +204,35 @@
   ]
 }
 {% endschema %}
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "CollectionPage",
+    "name": "{{ collection.title | strip_html | replace: '\"', ' ' }}",
+    "url": "{{ collection.url }}",
+    "mainEntity": {
+        "@type": "WebPageElement",
+        "offers": {
+            "@type": "Offer",
+            "itemOffered": [
+                {% for product in collection.products %}
+                {
+                    "@type": "Product",
+                    "image": "{{ product | img_url: '2560w' }}",
+                    "name": "{{ product.title | strip_html | replace: '\"', ' ' }}",
+                    "offers": {
+                        "@type": "Offer",
+                        "availability": "http://schema.org/InStock",
+                        "price": "{{ product.price | money_without_currency }}",
+                        "priceCurrency": "USD",
+                        "url": "{{ product.url }}"
+                    },
+                    "sku": "{{ product.sku }}"
+                }{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+            ]
+        }
+    }
+}
+</script>
