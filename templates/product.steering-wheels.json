@@ -772,13 +772,6 @@
     "product_faq_EkQ4c9": {
       "type": "product-faq",
       "blocks": {
-        "faq_information_wy9qUJ": {
-          "type": "faq_information",
-          "settings": {
-            "title": "Will I have to pay customs fees?",
-            "subheading": "<p>Customs duties or import taxes may apply to your order <strong>depending on your country’s</strong> regulations. These fees are the responsibility of the customer and are not included in the price at checkout. We recommend checking with your<strong> local customs office</strong> for details.</p>"
-          }
-        },
         "faq_information_zyJV6T": {
           "type": "faq_information",
           "settings": {
@@ -834,10 +827,16 @@
             "title": "My steering wheel requires custom clearance. What should I do?",
             "subheading": "<p>If custom clearance is necessary for your order, please contact us and we will get you in touch with one of our specialists to help you clear your package asap.</p>"
           }
+        },
+        "faq_information_wy9qUJ": {
+          "type": "faq_information",
+          "settings": {
+            "title": "Will I have to pay customs fees?",
+            "subheading": "<p>Customs duties or import taxes may apply to your order <strong>depending on your country’s</strong> regulations. These fees are the responsibility of the customer and are not included in the price at checkout. We recommend checking with your<strong> local customs office</strong> for details.</p>"
+          }
         }
       },
       "block_order": [
-        "faq_information_wy9qUJ",
         "faq_information_zyJV6T",
         "faq_information_dpC3rG",
         "faq_information_pXHcRD",
@@ -845,7 +844,8 @@
         "faq_information_Cjzwfx",
         "faq_information_Bpqqbk",
         "faq_information_Qe4pct",
-        "faq_information_tV4nxd"
+        "faq_information_tV4nxd",
+        "faq_information_wy9qUJ"
       ],
       "settings": {
         "title": "FAQ"
