@@ -1,1 +1,863 @@
-{"sections":{"product_interior_template_GUdBHq":{"type":"product-interior-template","disabled":true,"settings":{"show_share_buttons":false,"show_vendor":false,"show_sku":false,"description_below_add_to_cart":true,"selector_mode":"block","show_color_swatch":true,"show_color_carousel":false,"show_quantity_selector":true,"show_inventory_quantity":false,"inventory_quantity_threshold":0,"show_price_in_button":false,"show_payment_button":false,"image_size":"large","stack_images":false,"show_thumbnails":true,"enable_image_zoom":true,"enable_video_looping":false,"color_id":"","tab_page_1_handle":"","tab_page_2_handle":"","reviews_enabled":false,"featured_image_size":"large"}},"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"loox_reviews_loox_rating_a8RHiM":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"contentSize":16,"pattern":"","hideText":false,"alignment":"","layout":"","textColor":"","starColor":"","showAllReviews":false,"looxOpenFloatingWidget":false,"emptyRatingWidget":false}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"interior_product_form_BEHiUg":{"type":"interior-product-form","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"show_gift_card_recipient":true}},"description":{"type":"description","settings":{}},"share":{"type":"share","disabled":true,"settings":{"share_label":"Share"}},"form_with_steering_btn_99JaAq":{"type":"form-with-steering-btn","disabled":true,"settings":{"ext-cls":""}}},"block_order":["vendor","title","loox_reviews_loox_rating_a8RHiM","price","variant_picker","interior_product_form_BEHiUg","quantity_selector","buy_buttons","description","share","form_with_steering_btn_99JaAq"],"settings":{"enable_sticky_info":true,"extcls":"","show_color_swatch":true,"color_scheme":"scheme-1","media_size":"large","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"stacked","media_position":"left","image_zoom":"lightbox","mobile_thumbnails":"hide","hide_variants":true,"enable_video_looping":false,"padding_top":0,"padding_bottom":12}},"1720798977649d43d4":{"type":"apps","blocks":{"hulk_form_builder_form_block_yMTHKM":{"type":"shopify:\/\/apps\/hulk-form-builder\/blocks\/form-block\/b6b8dd14-356b-4725-a4ed-77232212b3c3","settings":{"form_uuid":"k6lrFw-ql-P19Alp384Law","form_settings":false,"font_color":"#000000","size":14,"input_background_color":"#ffffff","input_background_color_focus":"#f4dada","input_border_radius":3,"input_border_color":"#ebe9e9","input_border_color_focus":"#2d2727","input_font_color":"#3d3131","input_size":14,"border_color":"#121212","border_radius":2,"border":1,"fill_color":"#ebe9e9","padding":0,"form_width":800,"btn_text":"Submit","sub_btn_txt_color":"#f3f3f3","sub_btn_bg_color":"#3f3333","sub_btn_font_size":16,"sub_btn_bdr_color":"#ffffff","sub_btn_bdr_rad":3,"sub_btn_bdr_width":1,"fonts":"Times New Roman"}}},"block_order":["hulk_form_builder_form_block_yMTHKM"],"disabled":true,"settings":{"include_margins":true}},"product_video_section_zbzFr7":{"type":"product-video-section","settings":{"extcls":"","icon":"shopify:\/\/shop_images\/exterior_322bf904-6dd7-47fc-8dae-1092071bd736.png","title":"how our parts are built locally","video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/88bc81591a114671acac404ff52c71b7.mp4"}},"compare_image_whXb8H":{"type":"compare_image","blocks":{"blocks_YnWaqw":{"type":"Blocks","settings":{"desk-image":"shopify:\/\/shop_images\/shipping-truck-02-stroke-rounded_1.svg","heading":"Free shipping on orders over <spa>199$<\/spa>","sub_heading":"<p>Delivered Fast and Securely to Your Doorstep.<\/p>"}},"blocks_7id9mG":{"type":"Blocks","settings":{"desk-image":"shopify:\/\/shop_images\/Group_93.svg","heading":"1 year warranty on defects","sub_heading":"<p>We know you'll love our products! But if you're not fully satisfied for any reason, simply return the items for an exchange or a full refund within 60 days of purchase.<\/p>"}},"blocks_j3jBAD":{"type":"Blocks","settings":{"desk-image":"shopify:\/\/shop_images\/Group_96.svg","heading":"60 day money-back guarantee","sub_heading":"<p>All our products come with a 1 Year Warranty on defects. Simply contact us and our team will have you taken care of.<\/p>"}}},"block_order":["blocks_YnWaqw","blocks_7id9mG","blocks_j3jBAD"],"settings":{"image":"shopify:\/\/shop_images\/Mask_group_2.png","mob-image":"shopify:\/\/shop_images\/mob-men.png","title_1":"Buy with confidence","button_url":"Shop Now","link_url":"#product-page-id"}},"product_video_section_LzgKmX":{"type":"product-video-section","disabled":true,"settings":{"extcls":"product-video-section-2","icon":"shopify:\/\/shop_images\/exterior_322bf904-6dd7-47fc-8dae-1092071bd736.png","title":"how our parts arebuilt locally","video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/88bc81591a114671acac404ff52c71b7.mp4"}},"single_video_iF6Ybc":{"type":"single-video","settings":{"title":"Made with 100% real carbon fiber","button_url":"","link_url":"","video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/862fb94bdf4c4e19bce3d62bd6625426.mp4"}},"marque_slide_YVcn7m":{"type":"marque-slide","blocks":{"column_yM3Y7T":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/g_red.png"}},"column_7NnHip":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/blue_7a238abd-c087-4c1a-add4-8fc5875ddb6f.png"}},"column_CJXYCG":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/blackliun.png"}},"column_caUyA3":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/green.png"}},"column_pTHJCA":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/camo.png"}},"column_AijU8b":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/gray.png"}},"column_iLhCKP":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/honey.png"}},"column_w9VJWc":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/g_red.png"}},"column_AFhDnz":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/blackliun.png"}},"column_acxWHX":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/blue_7a238abd-c087-4c1a-add4-8fc5875ddb6f.png"}},"column_BC7CTC":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/green.png"}},"column_7zLUbV":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/camo.png"}},"column_yaYxmR":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/gray.png"}},"column_PU9gab":{"type":"column","settings":{"anchor_link":"","image":"shopify:\/\/shop_images\/honey.png"}}},"block_order":["column_yM3Y7T","column_7NnHip","column_CJXYCG","column_caUyA3","column_pTHJCA","column_AijU8b","column_iLhCKP","column_w9VJWc","column_AFhDnz","column_acxWHX","column_BC7CTC","column_7zLUbV","column_yaYxmR","column_PU9gab"],"settings":{"body_color":"#e7e7e7","title":"7 different carbon fiber patterns"}},"related-products":{"type":"related-products","disabled":true,"settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":28}},"iphone_slider_LqfQ9C":{"type":"iphone_slider","blocks":{"img_THkW3P":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/IMG_3631_8a0609e9-91cb-4101-abea-e5070d2583f5.png"}},"img_fAHAfA":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/IMG_3633_ca4c322f-c565-48ec-a6c7-b50984a1cfa3.png"}},"img_QjfXiP":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/IMG_3635_0d2dc1b6-950b-4843-83f1-6ef67c5040ba.png"}},"img_RBpw3W":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/IMG_3638_6798e2d0-4b58-4673-8bd7-c5f9b243a6c1.png"}},"img_DMwxQk":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/IMG_3645_e69e75b6-0750-4b37-94ea-0d8f64f15179.png"}},"img_content_RVdTDw":{"type":"img-content","settings":{"image2":"shopify:\/\/shop_images\/IMG_3632_f0014477-eb7f-46b7-868e-ad1d5b05aee0.jpg"}},"img_content_CYFajF":{"type":"img-content","settings":{"image2":"shopify:\/\/shop_images\/IMG_3634_408a4945-6870-4c26-a825-02b3cc424863.jpg"}},"img_content_WChkMJ":{"type":"img-content","settings":{"image2":"shopify:\/\/shop_images\/IMG_3637_916bc42d-f6ca-4ba8-a6a4-1dfd668c5599.jpg"}},"img_content_BnQrW8":{"type":"img-content","settings":{"image2":"shopify:\/\/shop_images\/IMG_3639_8b264b92-aaa9-442b-8f28-04a8ee34fe2b.jpg"}},"img_content_YfAzrn":{"type":"img-content","settings":{"image2":"shopify:\/\/shop_images\/IMG_3646_6d4479d8-b4d9-4196-a358-3969d5ffbeb1.jpg"}}},"block_order":["img_THkW3P","img_fAHAfA","img_QjfXiP","img_RBpw3W","img_DMwxQk","img_content_RVdTDw","img_content_CYFajF","img_content_WChkMJ","img_content_BnQrW8","img_content_YfAzrn"],"settings":{"bg-img":"shopify:\/\/shop_images\/car.png","title":"real reviews by real customers","insta-image":"shopify:\/\/shop_images\/Vector_1.svg","phone-frame":"shopify:\/\/shop_images\/Group.webp","button_url":"Shop Now","link_url":"#product-page-id"}},"image_text_with_icon_R3AUMP":{"type":"image-text-with-icon","blocks":{"column_ETqAD4":{"type":"column","settings":{"icon-img":"shopify:\/\/shop_images\/backlight_high.svg","title-4":"Brightness"}},"column_BxgggR":{"type":"column","settings":{"icon-img":"shopify:\/\/shop_images\/network_check.svg","title-4":"RPM"}},"column_XYebFY":{"type":"column","settings":{"icon-img":"shopify:\/\/shop_images\/device_thermostat.svg","title-4":"Temperature"}},"column_EnNqLw":{"type":"column","settings":{"icon-img":"shopify:\/\/shop_images\/local_gas_station.svg","title-4":"Oil Status"}},"column_D6RNUE":{"type":"column","settings":{"icon-img":"shopify:\/\/shop_images\/Vector_e8e02b31-8f0c-4f79-80b5-e15387ad56f4.svg","title-4":"Battery"}},"column_kWirD7":{"type":"column","settings":{"icon-img":"shopify:\/\/shop_images\/manufacturing.svg","title-4":"Settings"}},"column_XRBN6f":{"type":"column","settings":{"icon-img":"shopify:\/\/shop_images\/avg_pace.svg","title-4":"Speed"}},"column_LDXrVK":{"type":"column","settings":{"icon-img":"shopify:\/\/shop_images\/laps.svg","title-4":"LAP"}},"column_gW4JJh":{"type":"column","settings":{"icon-img":"shopify:\/\/shop_images\/Group_88.svg","title-4":"Engine"}},"column_xWiLLb":{"type":"column","settings":{"icon-img":"shopify:\/\/shop_images\/Vector_1_00cb6978-357e-4f88-b294-9fbc11570a14.svg","title-4":"Engine Oil"}}},"block_order":["column_ETqAD4","column_BxgggR","column_XYebFY","column_EnNqLw","column_D6RNUE","column_kWirD7","column_XRBN6f","column_LDXrVK","column_gW4JJh","column_xWiLLb"],"disabled":true,"settings":{"title":"Dynamic <span>LED<\/span> Display","sub-title":"<p>OBD2 Module provided. Vehicle information will be transferred wirelessly via Bluetooth connection.<\/p>","title-2":"RPM, Speed & many more","title-3":"More than 14 functions to help you drive better","sub-title-2":"Remark","item-list":"<ul>\n                  <li>1. RPM setting from 1K to 9.9 K to get all lights flashing<\/li>\n                  <li>2. Many models have angle sensor to show angle data<\/li>\n                  <li>3. Unit data could be setted to be fit for your country<\/li>\n                  <li>4. Many more functions, please contact our sales team<\/li>\n                <\/ul>","bottom-img":"shopify:\/\/shop_images\/s-img_1.png"}},"img_slider_main_tVzb7E":{"type":"img_slider_main","blocks":{"image_hKP9Lb":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/uzi5.0h.jpg"}},"image_Y4f6iJ":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/levv___1.jpg"}},"image_jwERJb":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/esmee.jpg"}},"image_EcKcnP":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/xaviiair.jpg"}},"image_g93V7F":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/cambo_q60.jpg"}},"image_Qy4xGz":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/the_eco_snake.jpg"}},"image_wRtVBW":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/shadow_.5.0.jpg"}},"image_xCJjQp":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/q50_cpalo.jpg"}},"image_9CnHyz":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/5.0ohhhshit.jpg"}},"image_hx9wzA":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/rodman_s550.jpg"}},"image_db8HpK":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/b00st_wayne.jpg"}},"image_hJfRTN":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/gillscars.jpg"}},"image_p4LMFP":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/panda_s550.jpg"}},"image_wdfD3c":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/redtiggerrt.jpg"}}},"block_order":["image_hKP9Lb","image_Y4f6iJ","image_jwERJb","image_EcKcnP","image_g93V7F","image_Qy4xGz","image_wRtVBW","image_xCJjQp","image_9CnHyz","image_hx9wzA","image_db8HpK","image_hJfRTN","image_p4LMFP","image_wdfD3c"],"settings":{"icon":"shopify:\/\/shop_images\/throphy.png","title":"Trusted by showcar owners","url":"","btext":"Shop now","para":"Dyna Performance are the top choice for show car owners who demand perfection. Trusted worldwide, DynaCarbon™️ add that winning edge to your vehicle."}},"three_step_section_YXVJj7":{"type":"three-step-section","blocks":{"steps_pDzWRa":{"type":"Steps","settings":{"step":"","subheading":"Step 1","iconimage":"shopify:\/\/shop_images\/WhatsApp_Image_2024-07-24_at_1.45.23_AM.jpg","yourpersonalized":"Peel","paragraph":""}},"steps_jNbmhb":{"type":"Steps","settings":{"step":"","subheading":"Step 2","iconimage":"shopify:\/\/shop_images\/WhatsApp_Image_2024-07-24_at_1.45.32_AM.jpg","yourpersonalized":"Allign","paragraph":""}},"steps_QmtBYe":{"type":"Steps","settings":{"step":"","subheading":"Step 3","iconimage":"shopify:\/\/shop_images\/WhatsApp_Image_2024-07-24_at_1.45.38_AM.jpg","yourpersonalized":"Stick","paragraph":""}},"steps_84qi37":{"type":"Steps","settings":{"step":"","subheading":"Step 4","iconimage":"shopify:\/\/shop_images\/WhatsApp_Image_2024-07-24_at_1.45.45_AM.jpg","yourpersonalized":"Enjoy your Showcar status interior","paragraph":""}}},"block_order":["steps_pDzWRa","steps_jNbmhb","steps_QmtBYe","steps_84qi37"],"settings":{"ext-cls":"installation-process","headingh":"Installation process","button_url":"Shop Now","link_url":"#product-page-id"}},"product_faq_EkQ4c9":{"type":"product-faq","blocks":{"faq_information_zyJV6T":{"type":"faq_information","settings":{"title":"How long does it take to receive my order?","subheading":"<p>The production timeframe takes about 5-7 business days. Shipping takes about a week.<\/p>"}},"faq_information_pXHcRD":{"type":"faq_information","settings":{"title":"What materials are used for the interior overlays?","subheading":"<p>Our interior overlays are crafted from 100% real carbon fiber, topped with a durable resin for a show-car finish and protection for years to come.<\/p>"}},"faq_information_6c6BKz":{"type":"faq_information","settings":{"title":"Will the overlays damage my car’s original surfaces?","subheading":"<p>No, the overlays are designed to be removable without damaging your car’s original surfaces. However, it’s important to install them carefully following the provided instructions to ensure the best fit and avoid any issues.<\/p>"}},"faq_information_cmxbBa":{"type":"faq_information","settings":{"title":"What is the installation process like?","subheading":"<p>Begin by test-fitting the pieces to ensure proper alignment. Once satisfied, clean the surface thoroughly. After aligning the overlay pieces, press them firmly into place. For best results, apply heat using a heat gun or hair dryer to enhance adhesion, and perform the installation in a controlled environment to avoid dust and debris.<\/p>"}},"faq_information_jXdaPp":{"type":"faq_information","settings":{"title":"What if the overlay doesn’t fit properly?","subheading":"<p>If you encounter any fitment issues, please contact us immediately. We’ll work with you to either provide a replacement or resolve the issue.<\/p>"}},"faq_information_kjGaqT":{"type":"faq_information","settings":{"title":"How do I clean and maintain the overlays?","subheading":"<p>Simply wipe the overlays with a damp cloth or a mild cleaner. Avoid using harsh chemicals or abrasive materials to prevent damage to the finish. High quality interior detailers will not harm the overlays.<\/p>"}},"faq_information_dcMi9w":{"type":"faq_information","settings":{"title":"Can I return or exchange the overlays if I’m not satisfied?","subheading":"<p>We only accept returns if the entire kit is complete and none of the pieces have been installed. If you encounter any issues with your order, we’ll work with you to resolve them.<\/p>"}},"faq_information_EdBFnU":{"type":"faq_information","settings":{"title":"Are the overlays durable?","subheading":"<p>Absolutely. Our overlays are designed with durability in mind. We use the highest quality resin to coat each part, ensuring a robust and long-lasting finish that can withstand daily wear and tear. Additionally, we utilize premium adhesion backing, providing a secure and reliable bond that won't peel or come loose over time.<\/p>"}}},"block_order":["faq_information_zyJV6T","faq_information_pXHcRD","faq_information_6c6BKz","faq_information_cmxbBa","faq_information_jXdaPp","faq_information_kjGaqT","faq_information_dcMi9w","faq_information_EdBFnU"],"settings":{"title":"FAQ"}},"1724952377b9d4ddf7":{"type":"apps","blocks":{"loox_reviews_loox_dynamic_section_qyr9Vi":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"only_photos":false,"aggregated":false,"limit":20,"hide_thumbnails":false,"maxwidth":1080,"is_sample":false}}},"block_order":["loox_reviews_loox_dynamic_section_qyr9Vi"],"settings":{"include_margins":true}}},"order":["product_interior_template_GUdBHq","main","1720798977649d43d4","product_video_section_zbzFr7","compare_image_whXb8H","product_video_section_LzgKmX","single_video_iF6Ybc","marque_slide_YVcn7m","related-products","iphone_slider_LqfQ9C","image_text_with_icon_R3AUMP","img_slider_main_tVzb7E","three_step_section_YXVJj7","product_faq_EkQ4c9","1724952377b9d4ddf7"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product_interior_template_GUdBHq": {
+      "type": "product-interior-template",
+      "disabled": true,
+      "settings": {
+        "show_share_buttons": false,
+        "show_vendor": false,
+        "show_sku": false,
+        "description_below_add_to_cart": true,
+        "selector_mode": "block",
+        "show_color_swatch": true,
+        "show_color_carousel": false,
+        "show_quantity_selector": true,
+        "show_inventory_quantity": false,
+        "inventory_quantity_threshold": 0,
+        "show_price_in_button": false,
+        "show_payment_button": false,
+        "image_size": "large",
+        "stack_images": false,
+        "show_thumbnails": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "color_id": "",
+        "tab_page_1_handle": "",
+        "tab_page_2_handle": "",
+        "reviews_enabled": false,
+        "featured_image_size": "large"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "loox_reviews_loox_rating_a8RHiM": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "interior_product_form_BEHiUg": {
+          "type": "interior-product-form",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "form_with_steering_btn_99JaAq": {
+          "type": "form-with-steering-btn",
+          "disabled": true,
+          "settings": {
+            "ext-cls": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "loox_reviews_loox_rating_a8RHiM",
+        "price",
+        "variant_picker",
+        "interior_product_form_BEHiUg",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share",
+        "form_with_steering_btn_99JaAq"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "extcls": "",
+        "show_color_swatch": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "1720798977649d43d4": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_yMTHKM": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "k6lrFw-ql-P19Alp384Law",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 3,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 0,
+            "form_width": 800,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 16,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_yMTHKM"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product_video_section_zbzFr7": {
+      "type": "product-video-section",
+      "settings": {
+        "extcls": "",
+        "icon": "shopify://shop_images/exterior_322bf904-6dd7-47fc-8dae-1092071bd736.png",
+        "title": "how our parts are built locally",
+        "video": "https://cdn.shopify.com/videos/c/o/v/88bc81591a114671acac404ff52c71b7.mp4"
+      }
+    },
+    "compare_image_whXb8H": {
+      "type": "compare_image",
+      "blocks": {
+        "blocks_YnWaqw": {
+          "type": "Blocks",
+          "settings": {
+            "desk-image": "shopify://shop_images/shipping-truck-02-stroke-rounded_1.svg",
+            "heading": "Free shipping on orders over <spa>199$</spa>",
+            "sub_heading": "<p>Delivered Fast and Securely to Your Doorstep.</p>"
+          }
+        },
+        "blocks_7id9mG": {
+          "type": "Blocks",
+          "settings": {
+            "desk-image": "shopify://shop_images/Group_93.svg",
+            "heading": "1 year warranty on defects",
+            "sub_heading": "<p>All our products come with a 1 Year Warranty on defects. Simply contact us and our team will have you taken care of.</p>"
+          }
+        },
+        "blocks_j3jBAD": {
+          "type": "Blocks",
+          "settings": {
+            "desk-image": "shopify://shop_images/Group_96.svg",
+            "heading": "60 day money-back guarantee",
+            "sub_heading": "<p>We know you'll love our products! But if you're not fully satisfied for any reason, simply return the items for an exchange or a full refund within 60 days of purchase.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "blocks_YnWaqw",
+        "blocks_7id9mG",
+        "blocks_j3jBAD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mask_group_2.png",
+        "mob-image": "shopify://shop_images/mob-men.png",
+        "title_1": "Buy with confidence",
+        "button_url": "Shop Now",
+        "link_url": "#product-page-id"
+      }
+    },
+    "product_video_section_LzgKmX": {
+      "type": "product-video-section",
+      "disabled": true,
+      "settings": {
+        "extcls": "product-video-section-2",
+        "icon": "shopify://shop_images/exterior_322bf904-6dd7-47fc-8dae-1092071bd736.png",
+        "title": "how our parts arebuilt locally",
+        "video": "https://cdn.shopify.com/videos/c/o/v/88bc81591a114671acac404ff52c71b7.mp4"
+      }
+    },
+    "single_video_iF6Ybc": {
+      "type": "single-video",
+      "settings": {
+        "title": "Made with 100% real carbon fiber",
+        "button_url": "",
+        "link_url": "",
+        "video": "https://cdn.shopify.com/videos/c/o/v/862fb94bdf4c4e19bce3d62bd6625426.mp4"
+      }
+    },
+    "marque_slide_YVcn7m": {
+      "type": "marque-slide",
+      "blocks": {
+        "column_yM3Y7T": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/g_red.png"
+          }
+        },
+        "column_7NnHip": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/blue_7a238abd-c087-4c1a-add4-8fc5875ddb6f.png"
+          }
+        },
+        "column_CJXYCG": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/blackliun.png"
+          }
+        },
+        "column_caUyA3": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/green.png"
+          }
+        },
+        "column_pTHJCA": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/camo.png"
+          }
+        },
+        "column_AijU8b": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/gray.png"
+          }
+        },
+        "column_iLhCKP": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/honey.png"
+          }
+        },
+        "column_w9VJWc": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/g_red.png"
+          }
+        },
+        "column_AFhDnz": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/blackliun.png"
+          }
+        },
+        "column_acxWHX": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/blue_7a238abd-c087-4c1a-add4-8fc5875ddb6f.png"
+          }
+        },
+        "column_BC7CTC": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/green.png"
+          }
+        },
+        "column_7zLUbV": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/camo.png"
+          }
+        },
+        "column_yaYxmR": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/gray.png"
+          }
+        },
+        "column_PU9gab": {
+          "type": "column",
+          "settings": {
+            "anchor_link": "",
+            "image": "shopify://shop_images/honey.png"
+          }
+        }
+      },
+      "block_order": [
+        "column_yM3Y7T",
+        "column_7NnHip",
+        "column_CJXYCG",
+        "column_caUyA3",
+        "column_pTHJCA",
+        "column_AijU8b",
+        "column_iLhCKP",
+        "column_w9VJWc",
+        "column_AFhDnz",
+        "column_acxWHX",
+        "column_BC7CTC",
+        "column_7zLUbV",
+        "column_yaYxmR",
+        "column_PU9gab"
+      ],
+      "settings": {
+        "body_color": "#e7e7e7",
+        "title": "7 different carbon fiber patterns"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "iphone_slider_LqfQ9C": {
+      "type": "iphone_slider",
+      "blocks": {
+        "img_THkW3P": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3631_8a0609e9-91cb-4101-abea-e5070d2583f5.png"
+          }
+        },
+        "img_fAHAfA": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3633_ca4c322f-c565-48ec-a6c7-b50984a1cfa3.png"
+          }
+        },
+        "img_QjfXiP": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3635_0d2dc1b6-950b-4843-83f1-6ef67c5040ba.png"
+          }
+        },
+        "img_RBpw3W": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3638_6798e2d0-4b58-4673-8bd7-c5f9b243a6c1.png"
+          }
+        },
+        "img_DMwxQk": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3645_e69e75b6-0750-4b37-94ea-0d8f64f15179.png"
+          }
+        },
+        "img_content_RVdTDw": {
+          "type": "img-content",
+          "settings": {
+            "image2": "shopify://shop_images/IMG_3632_f0014477-eb7f-46b7-868e-ad1d5b05aee0.jpg"
+          }
+        },
+        "img_content_CYFajF": {
+          "type": "img-content",
+          "settings": {
+            "image2": "shopify://shop_images/IMG_3634_408a4945-6870-4c26-a825-02b3cc424863.jpg"
+          }
+        },
+        "img_content_WChkMJ": {
+          "type": "img-content",
+          "settings": {
+            "image2": "shopify://shop_images/IMG_3637_916bc42d-f6ca-4ba8-a6a4-1dfd668c5599.jpg"
+          }
+        },
+        "img_content_BnQrW8": {
+          "type": "img-content",
+          "settings": {
+            "image2": "shopify://shop_images/IMG_3639_8b264b92-aaa9-442b-8f28-04a8ee34fe2b.jpg"
+          }
+        },
+        "img_content_YfAzrn": {
+          "type": "img-content",
+          "settings": {
+            "image2": "shopify://shop_images/IMG_3646_6d4479d8-b4d9-4196-a358-3969d5ffbeb1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "img_THkW3P",
+        "img_fAHAfA",
+        "img_QjfXiP",
+        "img_RBpw3W",
+        "img_DMwxQk",
+        "img_content_RVdTDw",
+        "img_content_CYFajF",
+        "img_content_WChkMJ",
+        "img_content_BnQrW8",
+        "img_content_YfAzrn"
+      ],
+      "settings": {
+        "bg-img": "shopify://shop_images/car.png",
+        "title": "real reviews by real customers",
+        "insta-image": "shopify://shop_images/Vector_1.svg",
+        "phone-frame": "shopify://shop_images/Group.webp",
+        "button_url": "Shop Now",
+        "link_url": "#product-page-id"
+      }
+    },
+    "image_text_with_icon_R3AUMP": {
+      "type": "image-text-with-icon",
+      "blocks": {
+        "column_ETqAD4": {
+          "type": "column",
+          "settings": {
+            "icon-img": "shopify://shop_images/backlight_high.svg",
+            "title-4": "Brightness"
+          }
+        },
+        "column_BxgggR": {
+          "type": "column",
+          "settings": {
+            "icon-img": "shopify://shop_images/network_check.svg",
+            "title-4": "RPM"
+          }
+        },
+        "column_XYebFY": {
+          "type": "column",
+          "settings": {
+            "icon-img": "shopify://shop_images/device_thermostat.svg",
+            "title-4": "Temperature"
+          }
+        },
+        "column_EnNqLw": {
+          "type": "column",
+          "settings": {
+            "icon-img": "shopify://shop_images/local_gas_station.svg",
+            "title-4": "Oil Status"
+          }
+        },
+        "column_D6RNUE": {
+          "type": "column",
+          "settings": {
+            "icon-img": "shopify://shop_images/Vector_e8e02b31-8f0c-4f79-80b5-e15387ad56f4.svg",
+            "title-4": "Battery"
+          }
+        },
+        "column_kWirD7": {
+          "type": "column",
+          "settings": {
+            "icon-img": "shopify://shop_images/manufacturing.svg",
+            "title-4": "Settings"
+          }
+        },
+        "column_XRBN6f": {
+          "type": "column",
+          "settings": {
+            "icon-img": "shopify://shop_images/avg_pace.svg",
+            "title-4": "Speed"
+          }
+        },
+        "column_LDXrVK": {
+          "type": "column",
+          "settings": {
+            "icon-img": "shopify://shop_images/laps.svg",
+            "title-4": "LAP"
+          }
+        },
+        "column_gW4JJh": {
+          "type": "column",
+          "settings": {
+            "icon-img": "shopify://shop_images/Group_88.svg",
+            "title-4": "Engine"
+          }
+        },
+        "column_xWiLLb": {
+          "type": "column",
+          "settings": {
+            "icon-img": "shopify://shop_images/Vector_1_00cb6978-357e-4f88-b294-9fbc11570a14.svg",
+            "title-4": "Engine Oil"
+          }
+        }
+      },
+      "block_order": [
+        "column_ETqAD4",
+        "column_BxgggR",
+        "column_XYebFY",
+        "column_EnNqLw",
+        "column_D6RNUE",
+        "column_kWirD7",
+        "column_XRBN6f",
+        "column_LDXrVK",
+        "column_gW4JJh",
+        "column_xWiLLb"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Dynamic <span>LED</span> Display",
+        "sub-title": "<p>OBD2 Module provided. Vehicle information will be transferred wirelessly via Bluetooth connection.</p>",
+        "title-2": "RPM, Speed & many more",
+        "title-3": "More than 14 functions to help you drive better",
+        "sub-title-2": "Remark",
+        "item-list": "<ul>\n                  <li>1. RPM setting from 1K to 9.9 K to get all lights flashing</li>\n                  <li>2. Many models have angle sensor to show angle data</li>\n                  <li>3. Unit data could be setted to be fit for your country</li>\n                  <li>4. Many more functions, please contact our sales team</li>\n                </ul>",
+        "bottom-img": "shopify://shop_images/s-img_1.png"
+      }
+    },
+    "img_slider_main_tVzb7E": {
+      "type": "img_slider_main",
+      "blocks": {
+        "image_hKP9Lb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/uzi5.0h.jpg"
+          }
+        },
+        "image_Y4f6iJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/levv___1.jpg"
+          }
+        },
+        "image_jwERJb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/esmee.jpg"
+          }
+        },
+        "image_EcKcnP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/xaviiair.jpg"
+          }
+        },
+        "image_g93V7F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cambo_q60.jpg"
+          }
+        },
+        "image_Qy4xGz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/the_eco_snake.jpg"
+          }
+        },
+        "image_wRtVBW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shadow_.5.0.jpg"
+          }
+        },
+        "image_xCJjQp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/q50_cpalo.jpg"
+          }
+        },
+        "image_9CnHyz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5.0ohhhshit.jpg"
+          }
+        },
+        "image_hx9wzA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rodman_s550.jpg"
+          }
+        },
+        "image_db8HpK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/b00st_wayne.jpg"
+          }
+        },
+        "image_hJfRTN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gillscars.jpg"
+          }
+        },
+        "image_p4LMFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/panda_s550.jpg"
+          }
+        },
+        "image_wdfD3c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/redtiggerrt.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_hKP9Lb",
+        "image_Y4f6iJ",
+        "image_jwERJb",
+        "image_EcKcnP",
+        "image_g93V7F",
+        "image_Qy4xGz",
+        "image_wRtVBW",
+        "image_xCJjQp",
+        "image_9CnHyz",
+        "image_hx9wzA",
+        "image_db8HpK",
+        "image_hJfRTN",
+        "image_p4LMFP",
+        "image_wdfD3c"
+      ],
+      "settings": {
+        "icon": "shopify://shop_images/throphy.png",
+        "title": "Trusted by showcar owners",
+        "url": "",
+        "btext": "Shop now",
+        "para": "Dyna Performance are the top choice for show car owners who demand perfection. Trusted worldwide, DynaCarbon™️ add that winning edge to your vehicle."
+      }
+    },
+    "three_step_section_YXVJj7": {
+      "type": "three-step-section",
+      "blocks": {
+        "steps_pDzWRa": {
+          "type": "Steps",
+          "settings": {
+            "step": "",
+            "subheading": "Step 1",
+            "iconimage": "shopify://shop_images/WhatsApp_Image_2024-07-24_at_1.45.23_AM.jpg",
+            "yourpersonalized": "Peel",
+            "paragraph": ""
+          }
+        },
+        "steps_jNbmhb": {
+          "type": "Steps",
+          "settings": {
+            "step": "",
+            "subheading": "Step 2",
+            "iconimage": "shopify://shop_images/WhatsApp_Image_2024-07-24_at_1.45.32_AM.jpg",
+            "yourpersonalized": "Allign",
+            "paragraph": ""
+          }
+        },
+        "steps_QmtBYe": {
+          "type": "Steps",
+          "settings": {
+            "step": "",
+            "subheading": "Step 3",
+            "iconimage": "shopify://shop_images/WhatsApp_Image_2024-07-24_at_1.45.38_AM.jpg",
+            "yourpersonalized": "Stick",
+            "paragraph": ""
+          }
+        },
+        "steps_84qi37": {
+          "type": "Steps",
+          "settings": {
+            "step": "",
+            "subheading": "Step 4",
+            "iconimage": "shopify://shop_images/WhatsApp_Image_2024-07-24_at_1.45.45_AM.jpg",
+            "yourpersonalized": "Enjoy your Showcar status interior",
+            "paragraph": ""
+          }
+        }
+      },
+      "block_order": [
+        "steps_pDzWRa",
+        "steps_jNbmhb",
+        "steps_QmtBYe",
+        "steps_84qi37"
+      ],
+      "settings": {
+        "ext-cls": "installation-process",
+        "headingh": "Installation process",
+        "button_url": "Shop Now",
+        "link_url": "#product-page-id"
+      }
+    },
+    "product_faq_EkQ4c9": {
+      "type": "product-faq",
+      "blocks": {
+        "faq_information_zyJV6T": {
+          "type": "faq_information",
+          "settings": {
+            "title": "How long does it take to receive my order?",
+            "subheading": "<p>The production timeframe takes about 5-7 business days. Shipping takes about a week.</p>"
+          }
+        },
+        "faq_information_pXHcRD": {
+          "type": "faq_information",
+          "settings": {
+            "title": "What materials are used for the interior overlays?",
+            "subheading": "<p>Our interior overlays are crafted from 100% real carbon fiber, topped with a durable resin for a show-car finish and protection for years to come.</p>"
+          }
+        },
+        "faq_information_6c6BKz": {
+          "type": "faq_information",
+          "settings": {
+            "title": "Will the overlays damage my car’s original surfaces?",
+            "subheading": "<p>No, the overlays are designed to be removable without damaging your car’s original surfaces. However, it’s important to install them carefully following the provided instructions to ensure the best fit and avoid any issues.</p>"
+          }
+        },
+        "faq_information_cmxbBa": {
+          "type": "faq_information",
+          "settings": {
+            "title": "What is the installation process like?",
+            "subheading": "<p>Begin by test-fitting the pieces to ensure proper alignment. Once satisfied, clean the surface thoroughly. After aligning the overlay pieces, press them firmly into place. For best results, apply heat using a heat gun or hair dryer to enhance adhesion, and perform the installation in a controlled environment to avoid dust and debris.</p>"
+          }
+        },
+        "faq_information_jXdaPp": {
+          "type": "faq_information",
+          "settings": {
+            "title": "What if the overlay doesn’t fit properly?",
+            "subheading": "<p>If you encounter any fitment issues, please contact us immediately. We’ll work with you to either provide a replacement or resolve the issue.</p>"
+          }
+        },
+        "faq_information_kjGaqT": {
+          "type": "faq_information",
+          "settings": {
+            "title": "How do I clean and maintain the overlays?",
+            "subheading": "<p>Simply wipe the overlays with a damp cloth or a mild cleaner. Avoid using harsh chemicals or abrasive materials to prevent damage to the finish. High quality interior detailers will not harm the overlays.</p>"
+          }
+        },
+        "faq_information_dcMi9w": {
+          "type": "faq_information",
+          "settings": {
+            "title": "Can I return or exchange the overlays if I’m not satisfied?",
+            "subheading": "<p>We only accept returns if the entire kit is complete and none of the pieces have been installed. If you encounter any issues with your order, we’ll work with you to resolve them.</p>"
+          }
+        },
+        "faq_information_EdBFnU": {
+          "type": "faq_information",
+          "settings": {
+            "title": "Are the overlays durable?",
+            "subheading": "<p>Absolutely. Our overlays are designed with durability in mind. We use the highest quality resin to coat each part, ensuring a robust and long-lasting finish that can withstand daily wear and tear. Additionally, we utilize premium adhesion backing, providing a secure and reliable bond that won't peel or come loose over time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_information_zyJV6T",
+        "faq_information_pXHcRD",
+        "faq_information_6c6BKz",
+        "faq_information_cmxbBa",
+        "faq_information_jXdaPp",
+        "faq_information_kjGaqT",
+        "faq_information_dcMi9w",
+        "faq_information_EdBFnU"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    },
+    "1724952377b9d4ddf7": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_qyr9Vi": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_qyr9Vi"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "product_interior_template_GUdBHq",
+    "main",
+    "1720798977649d43d4",
+    "product_video_section_zbzFr7",
+    "compare_image_whXb8H",
+    "product_video_section_LzgKmX",
+    "single_video_iF6Ybc",
+    "marque_slide_YVcn7m",
+    "related-products",
+    "iphone_slider_LqfQ9C",
+    "image_text_with_icon_R3AUMP",
+    "img_slider_main_tVzb7E",
+    "three_step_section_YXVJj7",
+    "product_faq_EkQ4c9",
+    "1724952377b9d4ddf7"
+  ]
+}
