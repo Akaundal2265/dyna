@@ -4152,6 +4152,10 @@ button.hulkapps_discount_button.btn.btn--primary.button {
 }
 }
 @media screen and (max-width: 767px) {
+  .why_shop_product_section_container .img-grend-main-div {
+    position: relative;
+    margin-top: 18px;
+}
   .variant-mobile-hover {
     display: block !important;
     margin-top: 5px;
