@@ -1,0 +1,137 @@
+<style>
+  .trust-badges {
+    display: flex;
+    gap: 10px;
+     flex-wrap: wrap;
+    justify-content:center;
+}
+  .trust-bage-description p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+    color:#000;
+ text-transform: capitalize;
+    font-weight:400;
+}
+  .trust-bage-description {
+    text-align:center;
+  }
+  .trust-badge-box {
+ width: calc(25% - 7.5px);
+    text-align: center;
+ 
+    border-radius: 8px;
+}
+  @media only screen and (max-width: 767px) {
+.trust-bage-description p {
+    font-size: 12px;
+    line-height: 16px;
+
+} .trust-badges {
+           gap: 0px;
+}
+   
+    .trust-badges.sterring_product .trust-badge-box {
+    width:24%;
+}
+    .trust-badges.no_steing .trust-badge-box .trust-bage-icon img {
+    width: 58px;
+}
+    .trust-badges.no_steing .trust-badge-box {
+    width: 24%;
+}
+     .trust-badges.no_steing .trust-badge-box:nth-child(2) {
+    width: 28%;
+}
+    .trust-badges.sterring_product .trust-badge-box img {
+    max-width: 58px;
+}
+}
+    /* @media only screen and (max-width: 440px) {
+      .trust-bage-description p {
+    font-size: 11px;
+    line-height: 14px;
+}
+      .trust-bage-icon img {
+    max-width: 76%;
+}
+.trust-badges {
+           gap: 5px;
+}
+        .trust-badge-box {
+ width: calc(25% - 3.75px);
+        }
+    } */
+</style>
+ {% assign product_tags_string = product.tags | join: ' '  | downcase%}
+  <div class="trust-badges {% if product_tags_string contains 'steering' %} sterring_product{% else %} no_steing{% endif %}">
+   
+
+    {% if product_tags_string contains 'steering' %}
+
+ <div class="trust-badge-box">
+                  <div class="trust-bage-icon">
+                  <img src="https://cdn.shopify.com/s/files/1/1955/0423/files/1_year_warranty.svg?v=1752163676">
+                  </div>
+                   <div class="trust-bage-description">
+                  <p>1 year <br> warranty</p>
+                  </div>
+                  </div>
+   <div class="trust-badge-box">
+                  <div class="trust-bage-icon">
+                  <img src="https://cdn.shopify.com/s/files/1/1955/0423/files/Secure_checkout_encrypted_payment.svg?v=1752163675">
+                  </div>
+                   <div class="trust-bage-description">
+                  <p>Secure checkout</p>
+                  </div>
+                  </div>
+     <div class="trust-badge-box">
+                  <div class="trust-bage-icon">
+                  <img src="https://cdn.shopify.com/s/files/1/1955/0423/files/Hand_crafted_in_north_america.svg?v=1752163675">
+                  </div>
+                   <div class="trust-bage-description">
+                  <p>Hand crafted</p>
+                  </div>
+                  </div>
+ 
+{% elsif product_tags_string contains 'interior' %}
+ <div class="trust-badge-box">
+                  <div class="trust-bage-icon">
+                  <img src="https://cdn.shopify.com/s/files/1/1955/0423/files/1_year_warranty.svg?v=1752163676">
+                  </div>
+                   <div class="trust-bage-description">
+                  <p>1 year <br> warranty</p>
+                  </div>
+                  </div>
+     <div class="trust-badge-box">
+   <div class="trust-bage-icon">
+                  <img src="https://cdn.shopify.com/s/files/1/1955/0423/files/60_day_money_back_guarantee.svg?v=1752163676">
+                  </div>
+                   <div class="trust-bage-description">
+                  <p>60 day money back gaurantee</p>
+                  </div>
+                  </div>
+
+     <div class="trust-badge-box">
+                  <div class="trust-bage-icon">
+                  <img src="https://cdn.shopify.com/s/files/1/1955/0423/files/Secure_checkout_encrypted_payment.svg?v=1752163675">
+                  </div>
+                   <div class="trust-bage-description">
+                  <p>Secure checkout </p>
+                  </div>
+                  </div>
+ <div class="trust-badge-box">
+                  <div class="trust-bage-icon">
+                  <img src="https://cdn.shopify.com/s/files/1/1955/0423/files/Hand_crafted_in_north_america.svg?v=1752163675">
+                  </div>
+                   <div class="trust-bage-description">
+                  <p>Hand crafted  in North America</p>
+                  </div>
+                  </div>
+
+    {% endif %}
+                 
+                   
+                    
+                 
+                  </div>
