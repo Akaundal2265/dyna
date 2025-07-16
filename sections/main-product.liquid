@@ -188,6 +188,10 @@
                     {%- endif -%}
                   {%- endif -%}
                 </p>
+
+               {%- when 'trust-badges' -%}
+                    {% render 'trust-badges',block:block %}
+              
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
