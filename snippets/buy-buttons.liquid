@@ -114,6 +114,8 @@
     </div>
   {%- endif -%}
 
+              
+      {% render 'trust-badges',product:product %}
   {%- if show_pickup_availability -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
