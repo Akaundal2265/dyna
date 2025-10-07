@@ -1218,15 +1218,15 @@ $('.two_opt ul li').removeClass('active');
   window._learnq = window._learnq || [];
 
   const productData = {
-    ProductName: btn.dataset.productName,
-    ProductID: btn.dataset.productId,
-    SKU: btn.dataset.productSku,
-    Categories: JSON.parse(btn.dataset.productCategories || '[]'),
-    ImageURL: btn.dataset.productImage,
-    URL: btn.dataset.productUrl,
-    Brand: btn.dataset.productBrand,
-    Price: btn.dataset.productPrice,
-    CompareAtPrice: btn.dataset.productCompare
+    ProductName: "{{ product.title }}",
+  ProductID: "{{ product.id }}",
+  SKU: "{{ product.selected_or_first_available_variant.sku }}",
+  Categories: {{ product.collections | map: 'title' | json }},
+  ImageURL: "https:{{ product.featured_image.src | img_url: 'grande' }}",
+  URL: "{{ shop.url }}{{ product.url }}",
+  Brand: "{{ product.vendor }}",
+  Price: "{{ product.price | money_without_currency }}",
+  CompareAtPrice: "{{ product.compare_at_price_max | money_without_currency }}"
   };
 
   // Track Klaviyo "Added to Cart" event
