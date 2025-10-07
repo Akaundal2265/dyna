@@ -1210,6 +1210,31 @@ $('.two_opt ul li').removeClass('active');
     });
 </script>
 
+<script>
+  document.addEventListener('click', function (e) {
+  const btn = e.target.closest('button[name="add"]');
+  if (!btn) return;
+
+  window._learnq = window._learnq || [];
+
+  const productData = {
+    ProductName: btn.dataset.productName,
+    ProductID: btn.dataset.productId,
+    SKU: btn.dataset.productSku,
+    Categories: JSON.parse(btn.dataset.productCategories || '[]'),
+    ImageURL: btn.dataset.productImage,
+    URL: btn.dataset.productUrl,
+    Brand: btn.dataset.productBrand,
+    Price: btn.dataset.productPrice,
+    CompareAtPrice: btn.dataset.productCompare
+  };
+
+  // Track Klaviyo "Added to Cart" event
+  window._learnq.push(["track", "Added to Cart", productData]);
+  console.log("Klaviyo Added to Cart Event Sent", productData);
+});
+
+</script>
   </body>
 </html>
 
