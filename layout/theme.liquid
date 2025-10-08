@@ -1236,10 +1236,13 @@ $('.two_opt ul li').removeClass('active');
 
 </script>
 <style>
+ 
 {% if product.available %}
 
 {% else %}
-$('div#ps__bis_container_root').addClass('hide');
+ div#ps__bis_container_root{
+  opacity:0;
+}
 {% endif %}
 </style>
   </body>
