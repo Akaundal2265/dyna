@@ -1245,14 +1245,15 @@ $('.two_opt ul li').removeClass('active');
 
 {% endif %}
 </style>
-
+{% if product.first_available_variant.available  == true%}
 <script {{product.first_available_variant.available }}>
   $(window).on('load', function() {
 setTimeout(function(){
-
+$('div#ps__bis_container_root').remove();
 },3000)
   })
 </script>
+{%  endif %}
   </body>
 </html>
 
