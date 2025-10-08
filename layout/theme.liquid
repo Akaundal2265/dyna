@@ -1237,7 +1237,7 @@ $('.two_opt ul li').removeClass('active');
 </script>
 <style>
  
-{% if product.available %}
+{% if product.first_available_variant.available  == true%}
 
 {% else %}
  div#ps__bis_container_root{
@@ -1245,6 +1245,14 @@ $('.two_opt ul li').removeClass('active');
 }
 {% endif %}
 </style>
+
+<script {{product.first_available_variant.available }}>
+  $(window).on('load', function() {
+setTimeout(function(){
+
+},3000)
+  })
+</script>
   </body>
 </html>
 
